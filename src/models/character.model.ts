@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
-import imagesType from "./types/images.type";
+import imagesType from "./types/images.type.js";
 
 const characterSchema = new mongoose.Schema(
   {
-    id: { type: String, required: true, trim: true },
+    id: { type: Number, required: true, unique: true },
     fullName: { type: String, required: true, trim: true },
     shortName: { type: String, required: true, trim: true },
     age: { type: String, required: true, trim: true },

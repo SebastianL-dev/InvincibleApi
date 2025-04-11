@@ -1,18 +1,13 @@
 import express, { Application } from "express";
 import cors from "cors";
 import logger from "morgan";
+import characterRoutes from "./routes/characters.route.js";
 
-/**
- * Create main Express application.
- */
 const app: Application = express();
+const route = "/api";
 
-// Server configuration
 app.use(cors({ origin: "*" }), express.json(), logger("dev"));
 
-// Server routes
-app.get("/", (req, res) => {
-  res.send("Hola mundo");
-});
+app.use(route, characterRoutes);
 
 export default app;

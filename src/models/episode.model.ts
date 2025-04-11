@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const episodeSchema = new mongoose.Schema(
   {
-    id: { type: Number, required: true, trim: true },
+    id: { type: Number, required: true, trim: true, unique: true },
     title: { type: String, required: true, trim: true },
     episodeCode: { type: String, required: true, trim: true },
     season: { type: Number, required: true, trim: true },
