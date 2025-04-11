@@ -2,9 +2,19 @@ import mongoose from "mongoose";
 import chalk from "chalk";
 import { EnvConfig } from "../env.config.js";
 
+/**
+ * Get the environment variables and URI for connecting to the MongoDB database.
+ */
 const env = EnvConfig();
 const uri = env.mongo_uri;
 
+/**
+ * Connect the app with the MongoDB database using mongoose.
+ * On error, show a message and retry the connection.
+ *
+ * @async
+ * @function connect
+ */
 const connect = async () => {
   try {
     await mongoose.connect(uri, {});
@@ -21,6 +31,8 @@ const connect = async () => {
       chalk.red("\n  ✕"),
       `Oops, something went wrong: \n  ${typedError}`
     );
+
+    console.log(chalk.black("\n  ◔ Reconnecting..."));
 
     setTimeout(() => {
       connect();

@@ -4,6 +4,10 @@ import chalk from "chalk";
 import figlet from "figlet";
 import { EnvConfig } from "./config/env.config.js";
 
+/**
+ * Entry point of the Invincible API server.
+ * Sets up environment, database, and starts the Express app.
+ */
 const env = EnvConfig();
 
 app

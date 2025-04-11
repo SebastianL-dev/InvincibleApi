@@ -2,8 +2,22 @@ import characterModel from "../models/character.model.js";
 import "../models/species.model.js";
 import "../models/location.model.js";
 import "../models/episode.model.js";
+import Character from "../interfaces/entities/character.interface.js";
 
-export async function getAllCharacters() {
+/**
+ * Retrieves a list of characters from the database with specific fields excluded
+ * and populates related data from referenced collections.
+ *
+ * - Excludes the `_id` field from all documents.
+ * - Populates the `species` field (include location)
+ * - Populates the `origin` and `location` fields (include inhabitants)
+ * - Populates the `firstAppearance` field.
+ *
+ * @async
+ * @function getAllCharacters
+ * @returns {Promise<Character[]>} A promise that resolves to a list of characters with populated fields.
+ */
+export async function findAllCharacters(): Promise<Character[]> {
   const Characters = await characterModel
     .find()
     .select("-_id")

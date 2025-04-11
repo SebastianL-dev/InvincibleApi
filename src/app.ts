@@ -3,6 +3,11 @@ import cors from "cors";
 import logger from "morgan";
 import characterRoutes from "./routes/characters.route.js";
 
+/**
+ * Express app configuration.
+ * Applies middleware and sets base API routes.
+ */
+
 const app: Application = express();
 const route = "/api";
 
