@@ -1,0 +1,9 @@
+# This docker-compose file is used to run the Redis container locally.
+
+version: "3.8"
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
