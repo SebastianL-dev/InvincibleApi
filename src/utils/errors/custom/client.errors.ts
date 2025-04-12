@@ -1,4 +1,4 @@
-import { createAppError } from "../app.error.js";
+import { createAppError } from "../custom.error.js";
 
 export const BadRequestError = createAppError("Bad Request", 400);
 export const UnauthorizedError = createAppError("Unauthorized", 401);

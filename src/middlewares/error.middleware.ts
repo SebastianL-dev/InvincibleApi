@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import HttpError from "../interfaces/error/error.interface.js";
-import { BaseHttpError } from "../utils/errors/app.error.js";
+import { BaseHttpError } from "../utils/errors/custom.error.js";
 
 /**
  * Middleware to handle errors in the application.

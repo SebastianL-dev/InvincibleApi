@@ -3,6 +3,9 @@ import cors from "cors";
 import logger from "morgan";
 import characterRoutes from "./routes/characters.route.js";
 import { errorMiddleware } from "./middlewares/error.middleware.js";
+import { performance } from "node:perf_hooks";
+
+export const startTime = performance.now();
 
 /**
  * Express app configuration.

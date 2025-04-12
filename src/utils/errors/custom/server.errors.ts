@@ -1,4 +1,4 @@
-import { createAppError } from "../app.error.js";
+import { createAppError } from "../custom.error.js";
 
 export const InternalServerError = createAppError("Internal Server Error", 500);
 export const BadGatewayError = createAppError("Bad Gateway", 502);
