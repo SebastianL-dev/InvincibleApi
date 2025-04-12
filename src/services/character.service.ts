@@ -3,43 +3,39 @@ import "../models/entities/species.model.js";
 import "../models/entities/location.model.js";
 import "../models/entities/episode.model.js";
 import Character from "../interfaces/entities/character.interface.js";
+import { characterPopulateOptions } from "../populate/character.populate.js";
 
 /**
- * Retrieves a list of characters from the database with specific fields excluded
- * and populates related data from referenced collections.
- *
- * - Excludes the `_id` field from all documents.
- * - Populates the `species` field (include location)
- * - Populates the `origin` and `location` fields (include inhabitants)
- * - Populates the `firstAppearance` field.
+ * Find a list of characters from the database.
  *
  * @async
  * @function getAllCharacters
  * @returns {Promise<Character[]>} A promise that resolves to a list of characters with populated fields.
  */
 export async function findAllCharacters(): Promise<Character[]> {
-  const Characters = await characterModel
+  const charactersFound = await characterModel
     .find()
     .select("-_id")
-    .populate({
-      path: "species",
-      select: "-_id",
-      populate: { path: "location", select: "name type images id -_id" },
-    })
-    .populate({
-      path: "origin",
-      select: "-_id",
-      populate: { path: "inhabitants", select: "name images id -_id" },
-    })
-    .populate({
-      path: "location",
-      select: "-_id",
-      populate: { path: "inhabitants", select: "name images id -_id" },
-    })
-    .populate({
-      path: "firstAppearance",
-      select: "-_id",
-    });
+    .populate(characterPopulateOptions)
+    .lean();
 
-  return Characters;
+  return charactersFound;
+}
+
+/**
+ * Find a character from the database, searching by its unique identifier.
+ *
+ * @async
+ * @function findCharacterById
+ * @param {number} id - The unique identifier of the character to find.
+ * @returns {Promise<Character | null>} A promise that resolves character with populated fields.
+ */
+export async function findCharacterById(id: number): Promise<Character | null> {
+  const characterFound = await characterModel
+    .findOne({ id: id })
+    .select("-_id")
+    .populate(characterPopulateOptions)
+    .lean();
+
+  return characterFound;
 }
