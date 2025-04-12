@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import imagesType from "./types/images.type.js";
+import imagesType from "../types/images.type.js";
 
 const speciesSchema = new mongoose.Schema(
   {

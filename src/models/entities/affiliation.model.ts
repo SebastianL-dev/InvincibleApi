@@ -1,14 +1,14 @@
 import mongoose from "mongoose";
-import imagesType from "./types/images.type.js";
+import imagesType from "../types/images.type.js";
 
-const locationSchema = new mongoose.Schema(
+const affiliationSchema = new mongoose.Schema(
   {
     id: { type: Number, required: true, trim: true, unique: true },
     name: { type: String, required: true, trim: true },
-    type: { type: String, required: true, trim: true },
-    inhabitants: {
+    status: { type: String, required: true, trim: true },
+    location: {
       type: mongoose.SchemaTypes.ObjectId,
-      ref: "Species",
+      ref: "Location",
       required: true,
     },
     images: imagesType,
@@ -16,4 +16,4 @@ const locationSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Location", locationSchema);
+export default mongoose.model("Affiliation", affiliationSchema);

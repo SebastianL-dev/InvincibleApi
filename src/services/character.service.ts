@@ -1,7 +1,7 @@
-import characterModel from "../models/character.model.js";
-import "../models/species.model.js";
-import "../models/location.model.js";
-import "../models/episode.model.js";
+import characterModel from "../models/entities/character.model.js";
+import "../models/entities/species.model.js";
+import "../models/entities/location.model.js";
+import "../models/entities/episode.model.js";
 import Character from "../interfaces/entities/character.interface.js";
 
 /**
