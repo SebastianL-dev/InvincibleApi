@@ -29,12 +29,12 @@ export class BaseHttpError extends Error {
  *
  * @param {string} name - The name of the error (e.g., "NotFoundError").
  * @param {number} status - The HTTP status code associated with the error (e.g., 404).
- * @returns {typeof BaseHttpError} A custom error class extending `BaseHttpError`.
+ * @returns {new (message: string) => BaseHttpError} A custom error class extending `BaseHttpError`.
  */
 export const createAppError = function (
   name: string,
   status: number
-): typeof BaseHttpError {
+): new (message: string) => BaseHttpError {
   return class HttpError extends BaseHttpError {
     /**
      * Creates the constructor of `HttpError`.
