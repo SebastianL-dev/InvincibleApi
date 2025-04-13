@@ -39,12 +39,10 @@ const startServer = async () => {
   } catch (error) {
     const typedError = error as Error;
 
-    console.log(
-      chalk.red("\n   ✕"),
-      `Oops, something went wrong: ${typedError}`
-    );
+    console.log(chalk.red("\n   ✕"), "Oops, something went wrong: ");
+    console.error(typedError);
 
-    process.exit(0);
+    process.exit();
   }
 };
 

@@ -34,10 +34,8 @@ const connect = async () => {
   } catch (error) {
     const typedError = error as Error;
 
-    console.log(
-      chalk.red("\n  ✕"),
-      `Oops, something went wrong: \n  ${typedError}`
-    );
+    console.log(chalk.red("\n  ✕"), "Oops, something went wrong: ");
+    console.error(typedError);
 
     console.log(chalk.black("\n  ◔ Reconnecting..."));
 

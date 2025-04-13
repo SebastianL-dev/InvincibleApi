@@ -5,7 +5,8 @@
   "scripts": {
     "start": "tsc && node dist/server.js",
     "dev": "tsc-watch --onSuccess \"node dist/src/server.js\"",
-    "build": "tsc"
+    "build": "tsc",
+    "seed": "tsc && node dist/seed/seed.js"
   },
   "keywords": [],
   "author": "Sebastián Fernando Lozano Bello",

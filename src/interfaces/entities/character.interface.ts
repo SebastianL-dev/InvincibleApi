@@ -7,6 +7,7 @@ import Images from "./images.interface";
  * @interface Character
  */
 export default interface Character {
+  _id?: Types.ObjectId;
   id: number;
   fullName: string;
   shortName: string;

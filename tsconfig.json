@@ -8,6 +8,6 @@
     "outDir": "./dist",
     "resolveJsonModule": true,
     "incremental": true
-  }
-  // "include": ["src/**/*"]
+  },
+  "include": ["src/**/*"]
 }

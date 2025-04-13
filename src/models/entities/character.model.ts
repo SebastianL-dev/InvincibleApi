@@ -33,7 +33,7 @@ const characterSchema = new mongoose.Schema(
     },
     images: imagesType,
   },
-  { timestamps: true }
+  { timestamps: true, versionKey: false }
 );
 
 export default mongoose.model("Character", characterSchema);
