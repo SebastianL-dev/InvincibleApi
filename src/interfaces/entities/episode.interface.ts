@@ -12,10 +12,10 @@ export default interface Episode {
   description: string;
   season: number;
   episode: number;
-  duration: {
+  duration?: {
     time: number;
     unit: string;
-  };
+  } | null;
   platform: string;
   releaseDate: Date;
   createdAt?: Date;

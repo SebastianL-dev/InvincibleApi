@@ -10,7 +10,7 @@ import { redisClient } from "../server.js";
  * Find a list of characters from the database.
  *
  * @async
- * @function getAllCharacters
+ * @function findAllCharacters
  * @returns {Promise<Character[]>} A promise that resolves to a list of characters with populated fields.
  */
 export async function findAllCharacters(): Promise<Character[]> {
@@ -18,15 +18,15 @@ export async function findAllCharacters(): Promise<Character[]> {
 
   if (reply) return JSON.parse(reply);
 
-  const charactersFound = await characterModel
+  const foundCharacters = await characterModel
     .find()
     .select("-_id")
     .populate(characterPopulateOptions)
     .lean();
 
-  await redisClient.set("characters", JSON.stringify(charactersFound));
+  await redisClient.set("characters", JSON.stringify(foundCharacters));
 
-  return charactersFound;
+  return foundCharacters;
 }
 
 /**
@@ -42,13 +42,13 @@ export async function findCharacterById(id: number): Promise<Character | null> {
 
   if (reply) return JSON.parse(reply);
 
-  const characterFound = await characterModel
+  const foundCharacter = await characterModel
     .findOne({ id: id })
     .select("-_id")
     .populate(characterPopulateOptions)
     .lean();
 
-  await redisClient.set(`character_${id}`, JSON.stringify(characterFound));
+  await redisClient.set(`character_${id}`, JSON.stringify(foundCharacter));
 
-  return characterFound;
+  return foundCharacter;
 }

@@ -8,7 +8,7 @@ import {
  * Character routes.
  * Handles GET requests.
  * - Get all characters.
- * - Ger a character by its unique identifier.
+ * - Get a character by its unique identifier.
  */
 const router: Router = express.Router();
 

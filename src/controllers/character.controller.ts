@@ -22,12 +22,12 @@ export async function getAllCharacters(
   next: NextFunction
 ): Promise<void> {
   try {
-    const charactersFound = await services.findAllCharacters();
+    const characters = await services.findAllCharacters();
 
-    if (!charactersFound || charactersFound.length === 0)
+    if (!characters || characters.length === 0)
       throw new NotFoundError("No characters found");
 
-    res.status(200).json(charactersFound);
+    res.status(200).json(characters);
   } catch (error) {
     const typedError = error as Error;
 
@@ -37,7 +37,7 @@ export async function getAllCharacters(
 }
 
 /**
- * Endpoint to handle the HTTP GET request to retrieve one characters
+ * Endpoint to handle the HTTP GET request to retrieve one character
  * searching by its unique identifier.
  *
  * @async
@@ -57,11 +57,11 @@ export async function getCharacterById(
 ): Promise<void> {
   try {
     const id = req.params.id;
-    const characterFound = await services.findCharacterById(parseInt(id));
+    const character = await services.findCharacterById(parseInt(id));
 
-    if (!characterFound) throw new NotFoundError("No character found");
+    if (!character) throw new NotFoundError("No character found");
 
-    res.status(200).json(characterFound);
+    res.status(200).json(character);
   } catch (error) {
     const typedError = error as Error;
 
