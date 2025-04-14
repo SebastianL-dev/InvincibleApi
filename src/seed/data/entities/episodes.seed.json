@@ -6,12 +6,14 @@
     "description": "When Mark Grayson finally inherits powers from his superhero father, it’s a dream come true. But there’s more to being a hero than just choosing a name and costume.",
     "season": 1,
     "episode": 1,
-    "duration": 51,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 51,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-03-26T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecb7",
@@ -20,12 +22,14 @@
     "description": "With his father out of action, Mark struggles to defend the city against an interdimensional invasion, joining forces with a team of teenage superheroes.",
     "season": 1,
     "episode": 2,
-    "duration": 48,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 48,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-03-26T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecb8",
@@ -34,12 +38,14 @@
     "description": "Mark has to cut a study date short to help save Mount Rushmore from a crazed scientist. Robot deals with drama as he assembles a new team of world-saving superheroes.",
     "season": 1,
     "episode": 3,
-    "duration": 45,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 45,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-03-26T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecb9",
@@ -48,12 +54,14 @@
     "description": "It’s two firsts for Mark: a first date and a first trip to another planet. At the same time, Nolan and Debbie revisit their own first vacation together.",
     "season": 1,
     "episode": 4,
-    "duration": 48,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 48,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-04-02T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecba",
@@ -62,12 +70,14 @@
     "description": "Feeling confident in his new abilities, Mark risks a team-up with a local villain to take down a crime lord, while simultaneously juggling school and a new relationship.",
     "season": 1,
     "episode": 5,
-    "duration": 50,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 50,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-04-09T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecbb",
@@ -76,12 +86,14 @@
     "description": "Mark joins William and Amber on a campus visit to Upstate University, hoping to discover a new future for himself. Debbie makes her own disturbing discovery.",
     "season": 1,
     "episode": 6,
-    "duration": 48,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 48,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-04-16T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecbc",
@@ -90,12 +102,14 @@
     "description": "Feeling lost and confused, Mark looks for advice from Eve. At the same time, everyone’s looking for him.",
     "season": 1,
     "episode": 7,
-    "duration": 52,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 52,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-04-23T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecbd",
@@ -104,12 +118,14 @@
     "description": "Mark must prove he’s become the hero he’s always wanted to be by stopping an unstoppable force.",
     "season": 1,
     "episode": 8,
-    "duration": 48,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 48,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2021-04-30T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecbe",
@@ -118,12 +134,14 @@
     "description": "In the aftermath of his father's betrayal, Mark struggles with his responsibilities as Invincible and encounters an unexpected enemy.",
     "season": 2,
     "episode": 1,
-    "duration": 49,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 49,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2023-11-03T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecbf",
@@ -132,12 +150,14 @@
     "description": "It’s summer break for Mark and his friends, but supervillains don't take a vacation. Mark is forced to face the consequences of Omni-Man's double life.",
     "season": 2,
     "episode": 2,
-    "duration": 50,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 50,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2023-11-10T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc0",
@@ -146,12 +166,14 @@
     "description": "Mark starts his college career, Debbie struggles with personal trauma, and Allen the Alien returns home to find a new threat facing the Coalition of Planets.",
     "season": 2,
     "episode": 3,
-    "duration": 49,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 49,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2023-11-17T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc1",
@@ -160,12 +182,14 @@
     "description": "Mark answers the call to save an alien species, but the mission has unexpected personal consequences.",
     "season": 2,
     "episode": 4,
-    "duration": 47,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 47,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2023-11-24T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc2",
@@ -174,12 +198,14 @@
     "description": "The Grayson household is upended when Mark returns to Earth with surprising new responsibilities. The Guardians of the Globe face dangers both at home and away.",
     "season": 2,
     "episode": 5,
-    "duration": 51,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 51,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2024-03-14T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.335Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc3",
@@ -188,12 +214,14 @@
     "description": "After two challenging missions, The Guardians of the Globe struggle to work as a team. Meanwhile, Mark tries to balance his hero duties, personal relationships, and his future as a college student.",
     "season": 2,
     "episode": 6,
-    "duration": 50,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 50,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2024-03-21T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc4",
@@ -202,12 +230,14 @@
     "description": "As Mark attempts to salvage his personal life, a new villain arrives, presenting Invincible with his greatest challenge yet. Donald grapples with his past.",
     "season": 2,
     "episode": 7,
-    "duration": 52,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 52,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2024-03-28T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc5",
@@ -216,12 +246,14 @@
     "description": "An old enemy threatens everything Mark holds dear.",
     "season": 2,
     "episode": 8,
-    "duration": 54,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 54,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2024-04-04T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc6",
@@ -230,12 +262,14 @@
     "description": "Mark Grayson is back and stronger than ever – with new enemies out for blood and old villains out for revenge.",
     "season": 3,
     "episode": 1,
-    "duration": 49,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 49,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-02-06T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc7",
@@ -244,12 +278,14 @@
     "description": "Mark takes a stand, unaware of the ramifications for his family, the GDA, and even the Guardians. Cecil remembers his past and Eve makes an important decision.",
     "season": 3,
     "episode": 2,
-    "duration": 49,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 49,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-02-06T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc8",
@@ -258,12 +294,14 @@
     "description": "Mark struggles to teach Oliver what it means to be a superhero. Debbie explores a new relationship and a changed family dynamic.",
     "season": 3,
     "episode": 3,
-    "duration": 50,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 50,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-02-06T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecc9",
@@ -272,12 +310,14 @@
     "description": "Two strangers ask Mark for help with a mysterious villain. Elsewhere in the galaxy, Nolan grapples with his identity and Allen finds a surprising new ally.",
     "season": 3,
     "episode": 4,
-    "duration": 49,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 49,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-02-13T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdecca",
@@ -286,12 +326,14 @@
     "description": "Mark and Eve start a business and encounter a familiar face. Debbie worries that Oliver's growing up too quickly.",
     "season": 3,
     "episode": 5,
-    "duration": 49,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 49,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-02-20T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdeccb",
@@ -300,12 +342,14 @@
     "description": "A powerful new figure challenges Mark’s idea of what’s right and what’s wrong. Rae approaches Rex with a big life decision.",
     "season": 3,
     "episode": 6,
-    "duration": 54,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 54,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-02-27T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdeccc",
@@ -314,12 +358,14 @@
     "description": "Earth’s greatest heroes join forces to fight an unimaginable threat.",
     "season": 3,
     "episode": 7,
-    "duration": 51,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 51,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-03-06T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   },
   {
     "_id": "67fc8d4f34cbde83b9fdeccd",
@@ -328,11 +374,13 @@
     "description": "With the world still reeling, a dangerous stranger arrives - testing Mark to his limits and beyond.",
     "season": 3,
     "episode": 8,
-    "duration": 46,
-    "durationUnit": "minutes",
+    "duration": {
+      "time": 46,
+      "unit": "minutes"
+    },
     "platform": "Prime Video",
     "releaseDate": "2025-03-13T00:00:00.000Z",
     "createdAt": "2025-04-14T04:21:35.336Z",
-    "updatedAt": "2025-04-14T04:24:55.143Z"
+    "updatedAt": "2025-04-14T12:32:15.920Z"
   }
 ]

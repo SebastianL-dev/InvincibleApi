@@ -51,11 +51,11 @@ export async function UpdateJsonFile<T>(
   const __dirname = path.dirname(__filename);
 
   console.log(chalk.black("  ◔ Updating json files..."));
-  const characters = await model.find();
+  const items = await model.find().lean();
 
   fs.writeFileSync(
     path.join(__dirname, `api/${filePath}`),
-    JSON.stringify(characters, null, 2),
+    JSON.stringify(items, null, 2),
     "utf-8"
   );
 

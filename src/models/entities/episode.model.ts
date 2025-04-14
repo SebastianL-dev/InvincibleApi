@@ -7,8 +7,10 @@ const episodeSchema = new mongoose.Schema(
     description: { type: String, required: true, trim: true },
     season: { type: Number, required: true, trim: true },
     episode: { type: Number, required: true, trim: true },
-    duration: { type: Number, required: true, trim: true },
-    durationUnit: { type: String, required: true, trim: true },
+    duration: {
+      time: { type: Number, required: true, trim: true },
+      unit: { type: String, required: true, trim: true },
+    },
     platform: { type: String, required: true, trim: true },
     releaseDate: { type: Date, required: true },
   },
