@@ -1,0 +1,198 @@
+[
+  {
+    "_id": "67f7e2553a65c539cc28556f",
+    "id": 1,
+    "name": "Human",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea53",
+    "id": 2,
+    "name": "Viltrumite",
+    "status": "Endangered",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea54",
+    "id": 3,
+    "name": "Rognarr",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea55",
+    "id": 4,
+    "name": "Thraxans",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea56",
+    "id": 5,
+    "name": "Flaxan",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea57",
+    "id": 6,
+    "name": "Sequid",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea58",
+    "id": 7,
+    "name": "Unopan",
+    "status": "Endangered",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea59",
+    "id": 8,
+    "name": "Martian",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea5a",
+    "id": 9,
+    "name": "Atlantean",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea5b",
+    "id": 10,
+    "name": "Demon",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea5c",
+    "id": 11,
+    "name": "Gelderian",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea5d",
+    "id": 12,
+    "name": "Magmanites",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea5e",
+    "id": 13,
+    "name": "Alien",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  },
+  {
+    "_id": "67fd42f37986bd9ae80bea5f",
+    "id": 14,
+    "name": "Unknown",
+    "status": "???",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-14T17:16:35.398Z",
+    "updatedAt": "2025-04-14T17:17:28.001Z"
+  }
+]
