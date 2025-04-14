@@ -1,3 +1,6 @@
+# Logs
+/.vscode
+
 # Dependencies
 /node_modules
 
