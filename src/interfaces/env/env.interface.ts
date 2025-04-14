@@ -9,6 +9,11 @@ export default interface Environment {
   REDIS_URL: string;
 }
 
+/**
+ * Parsed environment variables required by the application.
+ *
+ * @interface EnvironmentParsed
+ */
 export interface EnvironmentParsed {
   mongo_uri: string;
   port: string;

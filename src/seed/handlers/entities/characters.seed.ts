@@ -3,20 +3,21 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import chalk from "chalk";
-import normalizeCharacter from "../../../utils/format/normalize.json.js";
+import normalizeJson from "../../../utils/format/normalize.json.js";
 import Character from "../../../interfaces/entities/character.interface.js";
+import {
+  cleanCollection,
+  insertData,
+  UpdateJsonFile,
+} from "../../../seed/helpers/seed.helpers.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const charactersPath =
+  "../../../../src/seed/data/entities/characters.seed.json";
 
 const charactersData: Character[] = JSON.parse(
-  fs.readFileSync(
-    path.join(
-      __dirname,
-      "../../../../src/seed/data/entities/characters.seed.json"
-    ),
-    "utf-8"
-  )
+  fs.readFileSync(path.join(__dirname, charactersPath), "utf-8")
 );
 
 /**
@@ -31,28 +32,16 @@ const charactersData: Character[] = JSON.parse(
  * @throws {Error} Throws an error if any of the database operations or file writes fail.
  */
 export default async function charactersSeed() {
-  process.stdout.write(chalk.black("  ◔ Cleaning collection..."));
-  await characterModel.deleteMany();
-  process.stdout.write("\r");
-  console.log(chalk.green("  ✓"), "Succesfully collection cleaned");
+  try {
+    await cleanCollection(characterModel);
+    const normalizedCharacters = normalizeJson(charactersData);
 
-  const normalizedCharacters = normalizeCharacter(charactersData);
+    await insertData(characterModel, normalizedCharacters);
+    await UpdateJsonFile(characterModel, charactersPath);
+  } catch (error) {
+    const typedError = error as Error;
 
-  process.stdout.write(chalk.black("  ◔ Inserting data..."));
-  await characterModel.insertMany(normalizedCharacters);
-  process.stdout.write("\r");
-  console.log(chalk.green("  ✓"), "Succesfully data inserted");
-
-  process.stdout.write(chalk.black("  ◔ Updating json files..."));
-  const characters = await characterModel.find();
-  fs.writeFileSync(
-    path.join(
-      __dirname,
-      "../../../../src/seed/data/entities/characters.seed.json"
-    ),
-    JSON.stringify(characters, null, 2),
-    "utf-8"
-  );
-  process.stdout.write("\r");
-  console.log(chalk.green("  ✓"), "Succesfully json files updated");
+    console.error(chalk.red("  ✗ Error during seeding process:"), typedError);
+    process.exit();
+  }
 }

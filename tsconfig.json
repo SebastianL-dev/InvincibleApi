@@ -7,7 +7,11 @@
     "esModuleInterop": true,
     "outDir": "./dist",
     "resolveJsonModule": true,
-    "incremental": true
+    "incremental": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["src/**/*"]
 }

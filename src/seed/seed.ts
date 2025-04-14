@@ -23,9 +23,8 @@ const seedDatabase = async () => {
 
     console.log(chalk.blue("  ▶ Seeding database..."));
 
-    process.stdout.write(chalk.black("\n  ◔ Connecting to database..."));
+    console.log(chalk.black("\n  ◔ Connecting to database..."));
     await mongoose.connect(env.mongo_uri);
-    process.stdout.write("\r");
     console.log(chalk.green("  ✓"), "Succesfully conected to database");
 
     await charactersSeed();
