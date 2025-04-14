@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node dist/server.js",
-    "dev": "tsc-watch --onSuccess \"node dist/src/server.js\"",
+    "dev": "tsc-watch --onSuccess \"node dist/server.js\"",
     "build": "tsc",
     "seed": "tsc && node dist/seed/seed.js"
   },
