@@ -4,6 +4,7 @@ import chalk from "chalk";
 import { EnvConfig } from "../config/env.config.js";
 import { performance } from "perf_hooks";
 import charactersSeed from "./handlers/entities/characters.seed.js";
+import episodesSeed from "./handlers/entities/episodes.seed.js";
 
 const env = EnvConfig();
 
@@ -28,6 +29,7 @@ const seedDatabase = async () => {
     console.log(chalk.green("  ✓"), "Succesfully conected to database");
 
     await charactersSeed();
+    await episodesSeed();
 
     console.log(
       chalk.green("\n  ✓"),

@@ -33,6 +33,7 @@ const charactersData: Character[] = JSON.parse(
  */
 export default async function charactersSeed() {
   try {
+    console.log(chalk.yellow("\n  ▶ Characters collection"));
     await cleanCollection(characterModel);
     const normalizedCharacters = normalizeJson(charactersData);
 

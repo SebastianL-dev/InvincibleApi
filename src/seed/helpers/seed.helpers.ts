@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
  * @returns {Promise<void>} A promise that resolves once the collection has been successfully cleaned.
  */
 export async function cleanCollection<T>(model: Model<T>): Promise<void> {
-  console.log(chalk.black("\n  ◔ Cleaning collection..."));
+  console.log(chalk.black("  ◔ Cleaning collection..."));
   await model.deleteMany();
   console.log(chalk.green("  ✓"), "Succesfully collection cleaned");
 }
@@ -30,7 +30,7 @@ export async function insertData<T, S>(
   model: Model<T>,
   data: S[]
 ): Promise<void> {
-  console.log(chalk.black("\n  ◔ Inserting data..."));
+  console.log(chalk.black("  ◔ Inserting data..."));
   await model.insertMany(data);
   console.log(chalk.green("  ✓"), "Succesfully data inserted");
 }
@@ -50,7 +50,7 @@ export async function UpdateJsonFile<T>(
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
 
-  console.log(chalk.black("\n  ◔ Updating json files..."));
+  console.log(chalk.black("  ◔ Updating json files..."));
   const characters = await model.find();
 
   fs.writeFileSync(

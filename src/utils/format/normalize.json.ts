@@ -1,4 +1,4 @@
-import GlobalObject from "@/interfaces/global/global.object.interface.js";
+import GlobalObject from "../../interfaces/global/global.object.interface.js";
 
 /**
  * Normalizes an array of JSON objects by ensuring specific fields are properly formatted.
