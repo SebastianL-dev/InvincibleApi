@@ -3,6 +3,7 @@ import cors from "cors";
 import logger from "morgan";
 import characterRoutes from "./routes/characters.route.js";
 import episodeRoutes from "./routes/episodes.route.js";
+import speciesRoutes from "./routes/species.route.js";
 import { errorMiddleware } from "./middlewares/error.middleware.js";
 import { performance } from "node:perf_hooks";
 
@@ -20,6 +21,7 @@ app.use(cors({ origin: "*" }), express.json(), logger("dev"));
 
 app.use(route, characterRoutes);
 app.use(route, episodeRoutes);
+app.use(route, speciesRoutes);
 
 app.use(errorMiddleware);
 
