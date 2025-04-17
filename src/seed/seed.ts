@@ -6,6 +6,7 @@ import { performance } from "perf_hooks";
 import charactersSeed from "./handlers/entities/characters.seed.js";
 import episodesSeed from "./handlers/entities/episodes.seed.js";
 import speciesSeed from "./handlers/entities/species.seed.js";
+import locationsSeed from "./handlers/entities/locations.seed.js";
 
 const env = EnvConfig();
 
@@ -32,6 +33,7 @@ const seedDatabase = async () => {
     await charactersSeed();
     await episodesSeed();
     await speciesSeed();
+    await locationsSeed();
 
     console.log(
       chalk.green("\n  ✓"),

@@ -4,506 +4,623 @@
     "id": 1,
     "name": "Earth",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.956Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff893",
     "id": 2,
     "name": "Viltrum",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff894",
     "id": 3,
     "name": "Thraxa",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff895",
     "id": 4,
     "name": "Flaxan Dimension",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff896",
     "id": 5,
     "name": "Shadow-Verse",
     "type": "Pocket Dimension",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff897",
     "id": 6,
     "name": "Wasteland Dimension",
     "type": "Planet",
-    "status": "Abandoned",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff898",
     "id": 7,
     "name": "Midnight City",
     "type": "City",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff899",
     "id": 8,
     "name": "Savage Planet",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff89a",
     "id": 9,
     "name": "Unopa",
     "type": "Planet",
-    "status": "Destroyed",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff89b",
     "id": 10,
     "name": "Mars",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff89c",
     "id": 11,
     "name": "Moon",
     "type": "Moon",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff89d",
     "id": 12,
     "name": "Talescria",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff89e",
     "id": 13,
     "name": "Urath",
     "type": "Planet",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff89f",
     "id": 14,
     "name": "Grayson House",
     "type": "House",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a0",
     "id": 15,
     "name": "Allen's Home",
     "type": "House",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a1",
     "id": 16,
     "name": "Angstrom's Warehouse Harbor",
     "type": "Warehouse",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a2",
     "id": 17,
     "name": "Atlantis",
     "type": "Ocean Kingdom",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a3",
     "id": 18,
     "name": "Atom Eve's House",
     "type": "Treehouse",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a4",
     "id": 19,
     "name": "Beckwell Community Center",
     "type": "Community Center",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a5",
     "id": 20,
     "name": "Burger Mart",
     "type": "Fast-food restaurant",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a6",
     "id": 21,
     "name": "Chicago",
     "type": "City",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a7",
     "id": 22,
     "name": "Coalition Headquarters",
     "type": "Headquarters",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a8",
     "id": 23,
     "name": "Global Defense Agency Prison",
     "type": "Prison Complex",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8a9",
     "id": 24,
     "name": "Guardians Headquarters",
     "type": "Base",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8aa",
     "id": 25,
     "name": "Hell",
     "type": "Demonic Realm",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8ab",
     "id": 26,
     "name": "Hollywood",
     "type": "Neighborhood",
-    "status": "Destroyed",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8ac",
     "id": 27,
     "name": "Hong Kong",
     "type": "City",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8ad",
     "id": 28,
     "name": "Lizard League Headquarters",
     "type": "Base",
-    "status": "Unknown",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8ae",
     "id": 29,
     "name": "Mojave Prison",
     "type": "Underground Prison",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8af",
     "id": 30,
     "name": "Multiverse",
     "type": "Reality",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b0",
     "id": 31,
     "name": "New York City",
     "type": "City",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b1",
     "id": 32,
     "name": "Payton Penitentiary",
     "type": "Penitentiary Complex",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b2",
     "id": 33,
     "name": "Reginald Vel Johnson High School",
     "type": "High School",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.957Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b3",
     "id": 34,
     "name": "Tailor Shoppe",
     "type": "Tailor Shop",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b4",
     "id": 35,
     "name": "Technician Laboratory",
     "type": "Base",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b5",
     "id": 36,
     "name": "Teen Team Base",
     "type": "Headquarters",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b6",
     "id": 37,
     "name": "Pentagon",
     "type": "Headquarters",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b7",
     "id": 38,
     "name": "Titan's Tower",
     "type": "Headquarters",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b8",
     "id": 39,
     "name": "Upstate University",
     "type": "University",
-    "status": "Destroyed",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8b9",
     "id": 40,
     "name": "Valley Hospital",
     "type": "Hospital",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
+    "_id": "6801494b57997e985a2ff8ba",
     "id": 41,
     "name": "Viltrumite City",
     "type": "City",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
-    "id": 41,
+    "_id": "6801494b57997e985a2ff8bb",
+    "id": 42,
     "name": "Viltrumite Prison",
     "type": "Asteroid Prison Complex",
-    "status": "Abandoned",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
-    "id": 42,
+    "_id": "6801494b57997e985a2ff8bc",
+    "id": 43,
     "name": "White Room",
     "type": "Room",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
-    "id": 43,
+    "_id": "6801494b57997e985a2ff8bd",
+    "id": 44,
     "name": "Wilkins House",
     "type": "House",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
-    "id": 44,
+    "_id": "6801494b57997e985a2ff8be",
+    "id": 45,
     "name": "Wyoming Military Base",
     "type": "Military Silo",
-    "status": "Active",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   },
   {
-    "id": 45,
-    "name": "Unknown",
-    "type": "???",
-    "status": "???",
+    "_id": "68014ac1b00a9707ca74e27f",
+    "id": 46,
+    "name": "Gelderia",
+    "type": "Planet",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T18:38:57.451Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
+  },
+  {
+    "_id": "68014ac1b00a9707ca74e280",
+    "id": 47,
+    "name": "Space",
+    "type": "Space",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-17T18:38:57.451Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
+  },
+  {
+    "_id": "6801494b57997e985a2ff8bf",
+    "id": 48,
+    "name": "Unknown",
+    "type": "???",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-17T18:32:43.958Z",
+    "updatedAt": "2025-04-17T18:41:08.105Z"
   }
 ]

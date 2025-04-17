@@ -11,147 +11,147 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea53",
     "id": 2,
     "name": "Viltrumite",
     "status": "Endangered",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff893",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea54",
     "id": 3,
     "name": "Rognarr",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff899",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea55",
     "id": 4,
     "name": "Thraxans",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff894",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea56",
     "id": 5,
     "name": "Flaxan",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff895",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea57",
     "id": 6,
     "name": "Sequid",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff89b",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea58",
     "id": 7,
     "name": "Unopan",
     "status": "Endangered",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff89a",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea59",
     "id": 8,
     "name": "Martian",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff89b",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5a",
     "id": 9,
     "name": "Atlantean",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff8a2",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5b",
     "id": 10,
     "name": "Demon",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff8aa",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5c",
     "id": 11,
     "name": "Gelderian",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "68014ac1b00a9707ca74e27f",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5d",
@@ -165,21 +165,21 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5e",
     "id": 13,
     "name": "Alien",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "68014ac1b00a9707ca74e280",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd565ae138774aa09bc084",
@@ -193,48 +193,48 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T18:39:22.825Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "68012c72b189d07128960d5e",
     "id": 15,
     "name": "Hybrid",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff8bf",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-17T16:29:38.693Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "68012c72b189d07128960d5f",
     "id": 16,
     "name": "Monster",
     "status": "Active",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff8bf",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-17T16:29:38.693Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5f",
     "id": 17,
     "name": "Unknown",
     "status": "???",
-    "home": "67f7e206d58dea7da5c728b0",
+    "home": "6801494b57997e985a2ff8bf",
     "images": {
       "main": "https://",
       "variant": "",
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-17T16:29:38.672Z"
+    "updatedAt": "2025-04-17T18:41:07.650Z"
   }
 ]
