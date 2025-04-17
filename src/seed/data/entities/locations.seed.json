@@ -1,0 +1,509 @@
+[
+  {
+    "_id": "67f7e206d58dea7da5c728b0",
+    "id": 1,
+    "name": "Earth",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 2,
+    "name": "Viltrum",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 3,
+    "name": "Thraxa",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 4,
+    "name": "Flaxan Dimension",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": "Shadow-Verse",
+    "type": "Pocket Dimension",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 6,
+    "name": "Wasteland Dimension",
+    "type": "Planet",
+    "status": "Abandoned",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 7,
+    "name": "Midnight City",
+    "type": "City",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 8,
+    "name": "Savage Planet",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": "Unopa",
+    "type": "Planet",
+    "status": "Destroyed",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 10,
+    "name": "Mars",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 11,
+    "name": "Moon",
+    "type": "Moon",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 12,
+    "name": "Talescria",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 13,
+    "name": "Urath",
+    "type": "Planet",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 14,
+    "name": "Grayson House",
+    "type": "House",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 15,
+    "name": "Allen's Home",
+    "type": "House",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 16,
+    "name": "Angstrom's Warehouse Harbor",
+    "type": "Warehouse",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 17,
+    "name": "Atlantis",
+    "type": "Ocean Kingdom",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 18,
+    "name": "Atom Eve's House",
+    "type": "Treehouse",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 19,
+    "name": "Beckwell Community Center",
+    "type": "Community Center",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 20,
+    "name": "Burger Mart",
+    "type": "Fast-food restaurant",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 21,
+    "name": "Chicago",
+    "type": "City",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 22,
+    "name": "Coalition Headquarters",
+    "type": "Headquarters",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 23,
+    "name": "Global Defense Agency Prison",
+    "type": "Prison Complex",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 24,
+    "name": "Guardians Headquarters",
+    "type": "Base",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 25,
+    "name": "Hell",
+    "type": "Demonic Realm",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 26,
+    "name": "Hollywood",
+    "type": "Neighborhood",
+    "status": "Destroyed",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 27,
+    "name": "Hong Kong",
+    "type": "City",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 28,
+    "name": "Lizard League Headquarters",
+    "type": "Base",
+    "status": "Unknown",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 29,
+    "name": "Mojave Prison",
+    "type": "Underground Prison",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 30,
+    "name": "Multiverse",
+    "type": "Reality",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 31,
+    "name": "New York City",
+    "type": "City",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 32,
+    "name": "Payton Penitentiary",
+    "type": "Penitentiary Complex",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 33,
+    "name": "Reginald Vel Johnson High School",
+    "type": "High School",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 34,
+    "name": "Tailor Shoppe",
+    "type": "Tailor Shop",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 35,
+    "name": "Technician Laboratory",
+    "type": "Base",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 36,
+    "name": "Teen Team Base",
+    "type": "Headquarters",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 37,
+    "name": "Pentagon",
+    "type": "Headquarters",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 38,
+    "name": "Titan's Tower",
+    "type": "Headquarters",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 39,
+    "name": "Upstate University",
+    "type": "University",
+    "status": "Destroyed",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 40,
+    "name": "Valley Hospital",
+    "type": "Hospital",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 41,
+    "name": "Viltrumite City",
+    "type": "City",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 41,
+    "name": "Viltrumite Prison",
+    "type": "Asteroid Prison Complex",
+    "status": "Abandoned",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 42,
+    "name": "White Room",
+    "type": "Room",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 43,
+    "name": "Wilkins House",
+    "type": "House",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 44,
+    "name": "Wyoming Military Base",
+    "type": "Military Silo",
+    "status": "Active",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 45,
+    "name": "Unknown",
+    "type": "???",
+    "status": "???",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  }
+]

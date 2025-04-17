@@ -11,7 +11,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea53",
@@ -25,7 +25,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea54",
@@ -39,7 +39,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea55",
@@ -53,7 +53,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea56",
@@ -67,7 +67,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea57",
@@ -81,7 +81,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea58",
@@ -95,7 +95,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea59",
@@ -109,7 +109,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5a",
@@ -123,7 +123,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5b",
@@ -137,7 +137,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5c",
@@ -151,7 +151,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5d",
@@ -165,7 +165,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5e",
@@ -179,7 +179,7 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd565ae138774aa09bc084",
@@ -193,9 +193,10 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T18:39:22.825Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
+    "_id": "68012c72b189d07128960d5e",
     "id": 15,
     "name": "Hybrid",
     "status": "Active",
@@ -204,11 +205,27 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-17T16:29:38.693Z",
+    "updatedAt": "2025-04-17T16:29:38.672Z"
+  },
+  {
+    "_id": "68012c72b189d07128960d5f",
+    "id": 16,
+    "name": "Monster",
+    "status": "Active",
+    "home": "67f7e206d58dea7da5c728b0",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-04-17T16:29:38.693Z",
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   },
   {
     "_id": "67fd42f37986bd9ae80bea5f",
-    "id": 16,
+    "id": 17,
     "name": "Unknown",
     "status": "???",
     "home": "67f7e206d58dea7da5c728b0",
@@ -218,6 +235,6 @@
       "alternative": ""
     },
     "createdAt": "2025-04-14T17:16:35.398Z",
-    "updatedAt": "2025-04-14T18:39:22.817Z"
+    "updatedAt": "2025-04-17T16:29:38.672Z"
   }
 ]
