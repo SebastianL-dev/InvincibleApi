@@ -12,7 +12,7 @@ import Location, {
  * a list of inhabitant names, and other specified fields.
  */
 export default function formatLocation(location: PopulatedLocation): Location {
-  const { inhabitants, images, createdAt, updatedAt, ...rest } = location;
+  const { _id, inhabitants, images, createdAt, updatedAt, ...rest } = location;
 
   const cleanInhabitants =
     inhabitants?.map((inhabitant) => inhabitant.name) || [];
