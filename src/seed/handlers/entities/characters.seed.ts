@@ -10,15 +10,25 @@ import {
   insertData,
   UpdateJsonFile,
 } from "../../../seed/helpers/seed.helpers.js";
+import { getFileHash } from "../../helpers/hashFile.helpers.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const charactersPath =
   "../../../../src/seed/data/entities/characters.seed.json";
+const hashFilePath = path.join(
+  __dirname,
+  "../../../../src/seed/data/hash/characters.hash"
+);
+const currentHash = getFileHash(path.join(__dirname, charactersPath));
+let savedHash = "";
 
 const charactersData: Character[] = JSON.parse(
   fs.readFileSync(path.join(__dirname, charactersPath), "utf-8")
 );
+
+if (fs.existsSync(hashFilePath))
+  savedHash = fs.readFileSync(hashFilePath, "utf-8").trim();
 
 /**
  * Seeds the database with character data by performing the following steps:
@@ -34,11 +44,22 @@ const charactersData: Character[] = JSON.parse(
 export default async function charactersSeed() {
   try {
     console.log(chalk.yellow("\n  ▶ Characters collection"));
+
+    if (currentHash === savedHash) {
+      console.log(
+        chalk.gray("  ▶ No changes in characters collection. Skipping...")
+      );
+
+      return;
+    }
+
     await cleanCollection(characterModel);
     const normalizedCharacters = normalizeJson(charactersData);
 
     await insertData(characterModel, normalizedCharacters);
     await UpdateJsonFile(characterModel, charactersPath);
+
+    fs.writeFileSync(hashFilePath, currentHash);
   } catch (error) {
     const typedError = error as Error;
 

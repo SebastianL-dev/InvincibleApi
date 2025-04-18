@@ -51,7 +51,7 @@ export async function UpdateJsonFile<T>(
   const __dirname = path.dirname(__filename);
 
   console.log(chalk.black("  ◔ Updating json files..."));
-  const items = await model.find().lean();
+  const items = await model.find().select("-updatedAt").lean();
 
   fs.writeFileSync(
     path.join(__dirname, `api/${filePath}`),

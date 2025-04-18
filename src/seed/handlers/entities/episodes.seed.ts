@@ -10,10 +10,17 @@ import {
   insertData,
   UpdateJsonFile,
 } from "../../../seed/helpers/seed.helpers.js";
+import { getFileHash } from "../../helpers/hashFile.helpers.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const episodesPath = "../../../../src/seed/data/entities/episodes.seed.json";
+const hashFilePath = path.join(
+  __dirname,
+  "../../../../src/seed/data/hash/episodes.hash"
+);
+const currentHash = getFileHash(path.join(__dirname, episodesPath));
+let savedHash = "";
 
 const episodesData: Episode[] = JSON.parse(
   fs.readFileSync(path.join(__dirname, episodesPath), "utf-8")
@@ -33,11 +40,25 @@ const episodesData: Episode[] = JSON.parse(
 export default async function episodesSeed() {
   try {
     console.log(chalk.yellow("\n  ▶ Episodes collection"));
+
+    if (fs.existsSync(hashFilePath))
+      savedHash = fs.readFileSync(hashFilePath, "utf-8").trim();
+
+    if (currentHash === savedHash) {
+      console.log(
+        chalk.gray("  ▶ No changes in episodes collection. Skipping...")
+      );
+
+      return;
+    }
+
     await cleanCollection(episodeModel);
     const normalizedEpisodes = normalizeJson(episodesData);
 
     await insertData(episodeModel, normalizedEpisodes);
     await UpdateJsonFile(episodeModel, episodesPath);
+
+    fs.writeFileSync(hashFilePath, currentHash);
   } catch (error) {
     const typedError = error as Error;
 

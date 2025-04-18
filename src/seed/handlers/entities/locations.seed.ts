@@ -10,14 +10,24 @@ import {
   insertData,
   UpdateJsonFile,
 } from "../../../seed/helpers/seed.helpers.js";
+import { getFileHash } from "../../helpers/hashFile.helpers.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const locationPath = "../../../../src/seed/data/entities/locations.seed.json";
+const hashFilePath = path.join(
+  __dirname,
+  "../../../../src/seed/data/hash/locations.hash"
+);
+const currentHash = getFileHash(path.join(__dirname, locationPath));
+let savedHash = "";
 
 const locationData: Location[] = JSON.parse(
   fs.readFileSync(path.join(__dirname, locationPath), "utf-8")
 );
+
+if (fs.existsSync(hashFilePath))
+  savedHash = fs.readFileSync(hashFilePath, "utf-8").trim();
 
 /**
  * Seeds the database with locations data by performing the following steps:
@@ -33,11 +43,22 @@ const locationData: Location[] = JSON.parse(
 export default async function locationsSeed() {
   try {
     console.log(chalk.yellow("\n  ▶ Locations collection"));
+
+    if (currentHash === savedHash) {
+      console.log(
+        chalk.gray("  ▶ No changes in locations collection. Skipping...")
+      );
+
+      return;
+    }
+
     await cleanCollection(locationModel);
     const normalizedLocations = normalizeJson(locationData);
 
     await insertData(locationModel, normalizedLocations);
     await UpdateJsonFile(locationModel, locationPath);
+
+    fs.writeFileSync(hashFilePath, currentHash);
   } catch (error) {
     const typedError = error as Error;
 
