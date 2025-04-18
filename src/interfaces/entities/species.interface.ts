@@ -16,3 +16,11 @@ export default interface Species {
   createdAt?: Date;
   updatedAt?: Date;
 }
+
+export interface Home {
+  name: string;
+}
+
+export interface PopulatedSpecies extends Omit<Species, "home"> {
+  home: string | null;
+}

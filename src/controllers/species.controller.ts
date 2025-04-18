@@ -1,15 +1,18 @@
 import { NextFunction, Request, Response } from "express";
 import * as services from "../services/species.service.js";
 import { NotFoundError } from "../utils/errors/custom/client.errors.js";
-import Species from "../interfaces/entities/species.interface.js";
+import Species, {
+  PopulatedSpecies,
+} from "../interfaces/entities/species.interface.js";
+import { formatSpecies } from "../utils/format/cleanSpecies.format.js";
 
 /**
  * Endpoint to handle the HTTP GET request to retrieve all species.
  *
  * @async
- * @function getAllEpisodes
+ * @function getAllSpecies
  * @param {Request} req - HTTP request object.
- * @param {Response<Species[]>} res - HTTP response object.
+ * @param {Response<PopulatedSpecies[]>} res - HTTP response object.
  * @param {NextFunction} next - The next middleware function in the stack.
  * @returns {Promise<void>} A JSON response containing the list of species or an error message.
  *
@@ -18,7 +21,7 @@ import Species from "../interfaces/entities/species.interface.js";
  */
 export async function getAllSpecies(
   req: Request,
-  res: Response<Species[]>,
+  res: Response<PopulatedSpecies[]>,
   next: NextFunction
 ): Promise<void> {
   try {
@@ -27,7 +30,9 @@ export async function getAllSpecies(
     if (!species || species.length === 0)
       throw new NotFoundError("No species found");
 
-    res.status(200).json(species);
+    const cleanSpecies = formatSpecies(species);
+
+    res.status(200).json(cleanSpecies);
   } catch (error) {
     const typedError = error as Error;
 
@@ -52,7 +57,7 @@ export async function getAllSpecies(
  */
 export async function getSpeciesById(
   req: Request,
-  res: Response,
+  res: Response<Species>,
   next: NextFunction
 ): Promise<void> {
   try {
