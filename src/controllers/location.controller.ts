@@ -4,6 +4,7 @@ import { NotFoundError } from "../utils/errors/custom/client.errors.js";
 import Location, {
   PopulatedLocation,
 } from "../interfaces/entities/location.interface.js";
+import formatLocation from "../utils/format/cleanLocations.format.js";
 
 /**
  * Endpoint to handle the HTTP GET request to retrieve all locations.
@@ -30,22 +31,7 @@ export async function getAllLocations(
       throw new NotFoundError("No locations found");
 
     const cleanedLocations = (locations as PopulatedLocation[]).map(
-      ({ inhabitants, images, createdAt, updatedAt, ...rest }) => {
-        if (!inhabitants)
-          return { ...rest, inhabitants: [], images, createdAt, updatedAt };
-
-        const cleanInhabitants = inhabitants.map(
-          (inhabitant) => inhabitant.name
-        );
-
-        return {
-          ...rest,
-          inhabitants: cleanInhabitants,
-          images,
-          createdAt,
-          updatedAt,
-        };
-      }
+      formatLocation
     );
 
     res.status(200).json(cleanedLocations);
@@ -82,18 +68,9 @@ export async function getLocationById(
 
     if (!location) throw new NotFoundError("No location found");
 
-    const { inhabitants, images, createdAt, updatedAt, ...rest } =
-      location as PopulatedLocation;
+    const cleanedLocation = formatLocation(location as PopulatedLocation);
 
-    const formattedLocation = {
-      ...rest,
-      inhabitants: inhabitants?.map((inhabitant) => inhabitant.name),
-      images,
-      createdAt,
-      updatedAt,
-    };
-
-    res.status(200).json(formattedLocation);
+    res.status(200).json(cleanedLocation);
   } catch (error) {
     const typedError = error as Error;
 
