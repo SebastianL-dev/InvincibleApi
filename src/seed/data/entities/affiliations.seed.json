@@ -10,9 +10,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.740Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b6a",
     "id": 2,
     "name": "Viltrum Empire",
     "status": "Active",
@@ -22,9 +24,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.740Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b6b",
     "id": 3,
     "name": "Guardians of the Globe",
     "status": "Active",
@@ -34,9 +38,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.740Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b6c",
     "id": 4,
     "name": "Teen Team",
     "status": "Active",
@@ -46,9 +52,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.740Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b6d",
     "id": 5,
     "name": "Global Defense Agency",
     "status": "Active",
@@ -58,9 +66,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.741Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b6e",
     "id": 6,
     "name": "Invincible Inc.",
     "status": "Active",
@@ -70,9 +80,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.741Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b6f",
     "id": 7,
     "name": "Lizard League",
     "status": "Inactive",
@@ -82,9 +94,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.741Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b70",
     "id": 8,
     "name": "Machine Head's Crew",
     "status": "Partially Active",
@@ -94,9 +108,11 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.741Z"
   },
   {
+    "_id": "68044455c22df687ea7b6b71",
     "id": 9,
     "name": "The Order",
     "status": "Active",
@@ -106,6 +122,7 @@
       "main": "https://",
       "variant": "",
       "alternative": ""
-    }
+    },
+    "createdAt": "2025-04-20T00:48:21.741Z"
   }
 ]

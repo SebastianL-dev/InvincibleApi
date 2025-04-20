@@ -7,6 +7,7 @@ import charactersSeed from "./handlers/entities/characters.seed.js";
 import episodesSeed from "./handlers/entities/episodes.seed.js";
 import speciesSeed from "./handlers/entities/species.seed.js";
 import locationsSeed from "./handlers/entities/locations.seed.js";
+import affiliationsSeed from "./handlers/entities/affiliations.seed.js";
 
 const env = EnvConfig();
 
@@ -34,6 +35,7 @@ const seedDatabase = async () => {
     await episodesSeed();
     await speciesSeed();
     await locationsSeed();
+    await affiliationsSeed();
 
     console.log(
       chalk.green("\n  ✓"),
