@@ -6,9 +6,9 @@ export default interface Affiliation {
   id: number;
   name: string;
   status: string;
-  leader: Types.ObjectId;
-  location: Types.ObjectId;
-  images: Images;
+  leader?: Types.ObjectId | null;
+  location?: Types.ObjectId | null;
+  images?: Images | null;
   createdAt?: Date;
   updatedAt?: Date;
 }
