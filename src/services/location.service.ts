@@ -18,6 +18,7 @@ export async function findAllLocations(): Promise<Location[]> {
   const foundLocations = await locationModel
     .find()
     .populate(locationPopulateOptions)
+    .sort({ id: 1 })
     .lean({ virtuals: true });
 
   await redisClient.set("locations", JSON.stringify(foundLocations));
@@ -41,6 +42,7 @@ export async function findLocationById(id: number): Promise<Location | null> {
   const foundLocation = await locationModel
     .findOne({ id: id })
     .populate(locationPopulateOptions)
+    .sort({ id: 1 })
     .lean({ virtuals: true });
 
   await redisClient.set(`location_${id}`, JSON.stringify(foundLocation));

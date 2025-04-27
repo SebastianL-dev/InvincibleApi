@@ -19,6 +19,7 @@ export async function findAllAffiliations(): Promise<Affiliation[]> {
     .find()
     .select("-_id")
     .populate(affiliationPopulateOptions)
+    .sort({ id: 1 })
     .lean();
 
   await redisClient.set("affiliations", JSON.stringify(foundAffiliations));
@@ -43,6 +44,7 @@ export async function findAffiliationById(id: number) {
     .findOne({ id: id })
     .select("-_id")
     .populate(affiliationPopulateOptions)
+    .sort({ id: 1 })
     .lean();
 
   await redisClient.set(`affiliation_${id}`, JSON.stringify(foundAffiliation));

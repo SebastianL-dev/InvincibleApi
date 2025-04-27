@@ -22,6 +22,7 @@ export async function findAllCharacters(): Promise<Character[]> {
     .find()
     .select("-_id")
     .populate(characterPopulateOptions)
+    .sort({ id: 1 })
     .lean();
 
   await redisClient.set("characters", JSON.stringify(foundCharacters));
@@ -46,6 +47,7 @@ export async function findCharacterById(id: number): Promise<Character | null> {
     .findOne({ id: id })
     .select("-_id")
     .populate(characterPopulateOptions)
+    .sort({ id: 1 })
     .lean();
 
   await redisClient.set(`character_${id}`, JSON.stringify(foundCharacter));

@@ -11,21 +11,18 @@
 export const characterPopulateOptions = [
   {
     path: "species",
-    select: "-_id -id",
-    populate: { path: "location", select: "name type -_id" },
+    select: "-_id name",
   },
   {
     path: "origin",
-    select: "-_id -id",
-    populate: { path: "inhabitants", select: "name -_id" },
+    select: "-_id name",
   },
   {
     path: "location",
-    select: "-_id -id",
-    populate: { path: "inhabitants", select: "name  -_id" },
+    select: "-_id name",
   },
   {
     path: "firstAppearance",
-    select: "-_id",
+    select: "-_id episode season title",
   },
 ];

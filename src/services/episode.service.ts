@@ -14,7 +14,11 @@ export async function findAllEpisodes(): Promise<Episode[]> {
 
   if (reply) return JSON.parse(reply);
 
-  const foundEpisodes = await episodeModel.find().select("-_id").lean();
+  const foundEpisodes = await episodeModel
+    .find()
+    .select("-_id")
+    .sort({ id: 1 })
+    .lean();
   await redisClient.set("episodes", JSON.stringify(foundEpisodes));
 
   return foundEpisodes;
@@ -36,6 +40,7 @@ export async function findEpisodeById(id: number): Promise<Episode | null> {
   const foundEpisode = await episodeModel
     .findOne({ id: id })
     .select("-_id")
+    .sort({ id: 1 })
     .lean();
 
   await redisClient.set(`episode_${id}`, JSON.stringify(foundEpisode));

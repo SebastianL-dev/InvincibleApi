@@ -19,6 +19,7 @@ export async function findAllSpecies(): Promise<Species[]> {
     .find()
     .select("-_id")
     .populate(speciesPopulateOptions)
+    .sort({ id: 1 })
     .lean();
   await redisClient.set("species", JSON.stringify(foundSpecies));
 
@@ -42,6 +43,7 @@ export async function findSpeciesById(id: number): Promise<Species | null> {
     .findOne({ id: id })
     .select("-_id")
     .populate(speciesPopulateOptions)
+    .sort({ id: 1 })
     .lean();
 
   await redisClient.set(`species_${id}`, JSON.stringify(foundSpecies));
