@@ -1,33 +1,39 @@
 import Species, {
-  Home,
   PopulatedSpecies,
 } from "../../interfaces/entities/species.interface";
 
 /**
- * Formats an array of `Species` objects into an array of `PopulatedSpecies` objects.
+ * Formats a species object by transforming its `home` field into the respective name if
+ * they exist and are valid, otherwise defaults them to an empty string.
  *
- * This function maps over the input `species` array and transforms each `Species` object
- * by spreading its properties and replacing the `home` property with the name of the home
- * if it is valid, or `null` otherwise.
- *
- * @function cleanSpecies
+ * @function formatSpecies
  * @param {Species[]} species - An array of `Species` objects to be formatted.
  * @returns {PopulatedSpecies[]} An array of `PopulatedSpecies` objects with formatted `home` properties.
  */
-export function formatSpecies(species: Species[]): PopulatedSpecies[] {
-  return species.map((s) => ({
-    ...s,
-    home: isHome(s.home) ? s.home.name : "",
-  }));
+export function formatSingleSpecies(species: Species): PopulatedSpecies {
+  return {
+    ...species,
+    home: isHome(species.home) ? species.home.name : "",
+  };
 }
 
 /**
- * Type guard function to determine if a given object is of type `Home`.
+ * Formats an array of species by mapping each Species through the `formatSingleSpecies` function.
+ *
+ * @param {formatSingleSpecies[]} species - An array of `Species` objects to be formatted.
+ * @returns {PopulatedSpecies[]} An array of `PopulatedSpecies` objects after formatting.
+ */
+export function formatSpecies(species: Species[]): PopulatedSpecies[] {
+  return species.map(formatSingleSpecies);
+}
+
+/**
+ * Type guard function to determine if a given object is of type `{name: string}`.
  *
  * @function isHome
  * @param {unknown} obj - The object to check.
- * @returns {boolean} A boolean indicating whether the object is of type `Home`.
+ * @returns {boolean} A boolean indicating whether the object is of type `{name: string}`.
  */
-function isHome(obj: unknown): obj is Home {
+function isHome(obj: unknown): obj is { name: string } {
   return typeof obj === "object" && obj !== null && "name" in obj;
 }

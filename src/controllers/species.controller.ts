@@ -1,10 +1,11 @@
 import { NextFunction, Request, Response } from "express";
 import * as services from "../services/species.service.js";
 import { NotFoundError } from "../utils/errors/custom/client.errors.js";
-import Species, {
-  PopulatedSpecies,
-} from "../interfaces/entities/species.interface.js";
-import { formatSpecies } from "../utils/format/cleanSpecies.format.js";
+import { PopulatedSpecies } from "../interfaces/entities/species.interface.js";
+import {
+  formatSpecies,
+  formatSingleSpecies,
+} from "../utils/format/cleanSpecies.format.js";
 
 /**
  * Endpoint to handle the HTTP GET request to retrieve all species.
@@ -57,7 +58,7 @@ export async function getAllSpecies(
  */
 export async function getSpeciesById(
   req: Request,
-  res: Response<Species>,
+  res: Response<PopulatedSpecies>,
   next: NextFunction
 ): Promise<void> {
   try {
@@ -67,7 +68,9 @@ export async function getSpeciesById(
 
     if (!species) throw new NotFoundError("No species found");
 
-    res.status(200).json(species);
+    const cleanSpecies = formatSingleSpecies(species);
+
+    res.status(200).json(cleanSpecies);
   } catch (error) {
     const typedError = error as Error;
 

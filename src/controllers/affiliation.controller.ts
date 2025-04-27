@@ -1,7 +1,11 @@
 import { NextFunction, Request, Response } from "express";
 import * as services from "../services/affiliation.service.js";
 import { NotFoundError } from "../utils/errors/custom/client.errors.js";
-import Affiliation from "../interfaces/entities/affiliation.interface.js";
+import { PopulatedAffiliation } from "../interfaces/entities/affiliation.interface.js";
+import {
+  formatAffiliation,
+  formatAffiliations,
+} from "../utils/format/cleanAffiliations.format.js";
 
 /**
  * Endpoint to handle the HTTP GET request to retrieve all affiliations.
@@ -9,7 +13,7 @@ import Affiliation from "../interfaces/entities/affiliation.interface.js";
  * @async
  * @function getAllAffiliations
  * @param {Request} req - HTTP request object.
- * @param {Response<Affiliation[]>} res - HTTP response object.
+ * @param {Response<PopulatedAffiliation[]>} res - HTTP response object.
  * @param {NextFunction} next - The next middleware function in the stack.
  * @returns {Promise<void>} A JSON response containing the list of affiliations or an error message.
  *
@@ -18,7 +22,7 @@ import Affiliation from "../interfaces/entities/affiliation.interface.js";
  */
 export async function getAllAffiliations(
   req: Request,
-  res: Response<Affiliation[]>,
+  res: Response<PopulatedAffiliation[]>,
   next: NextFunction
 ): Promise<void> {
   try {
@@ -27,7 +31,9 @@ export async function getAllAffiliations(
     if (!affiliations || affiliations.length === 0)
       throw new NotFoundError("No affiliations found");
 
-    res.status(200).json(affiliations);
+    const cleanAffiliations = formatAffiliations(affiliations);
+
+    res.status(200).json(cleanAffiliations);
   } catch (error) {
     const typedError = error as Error;
 
@@ -52,7 +58,7 @@ export async function getAllAffiliations(
  */
 export async function getAffiliationById(
   req: Request,
-  res: Response<Affiliation>,
+  res: Response<PopulatedAffiliation>,
   next: NextFunction
 ): Promise<void> {
   try {
@@ -62,7 +68,9 @@ export async function getAffiliationById(
 
     if (!affiliation) throw new NotFoundError("No affiliation found");
 
-    res.status(200).json(affiliation);
+    const cleanAffiliation = formatAffiliation(affiliation);
+
+    res.status(200).json(cleanAffiliation);
   } catch (error) {
     const typedError = error as Error;
 

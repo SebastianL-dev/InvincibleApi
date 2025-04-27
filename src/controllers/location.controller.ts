@@ -30,11 +30,11 @@ export async function getAllLocations(
     if (!locations || locations.length === 0)
       throw new NotFoundError("No locations found");
 
-    const cleanedLocations = (locations as PopulatedLocation[]).map(
+    const cleanLocations = (locations as PopulatedLocation[]).map(
       formatLocation
     );
 
-    res.status(200).json(cleanedLocations);
+    res.status(200).json(cleanLocations);
   } catch (error) {
     const typedError = error as Error;
 
@@ -68,9 +68,9 @@ export async function getLocationById(
 
     if (!location) throw new NotFoundError("No location found");
 
-    const cleanedLocation = formatLocation(location as PopulatedLocation);
+    const cleanLocation = formatLocation(location as PopulatedLocation);
 
-    res.status(200).json(cleanedLocation);
+    res.status(200).json(cleanLocation);
   } catch (error) {
     const typedError = error as Error;
 
