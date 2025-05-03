@@ -7,8 +7,8 @@ import Species, {
  * they exist and are valid, otherwise defaults them to an empty string.
  *
  * @function formatSpecies
- * @param {Species[]} species - An array of `Species` objects to be formatted.
- * @returns {PopulatedSpecies[]} An array of `PopulatedSpecies` objects with formatted `home` properties.
+ * @param {Species} species - A `Species` object to be formatted.
+ * @returns {PopulatedSpecies} A `PopulatedSpecies` object with formatted `home` property.
  */
 export function formatSingleSpecies(species: Species): PopulatedSpecies {
   return {
@@ -20,7 +20,7 @@ export function formatSingleSpecies(species: Species): PopulatedSpecies {
 /**
  * Formats an array of species by mapping each Species through the `formatSingleSpecies` function.
  *
- * @param {formatSingleSpecies[]} species - An array of `Species` objects to be formatted.
+ * @param {Species[]} species - An array of `Species` objects to be formatted.
  * @returns {PopulatedSpecies[]} An array of `PopulatedSpecies` objects after formatting.
  */
 export function formatSpecies(species: Species[]): PopulatedSpecies[] {

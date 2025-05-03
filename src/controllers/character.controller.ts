@@ -1,7 +1,11 @@
 import { NextFunction, Request, Response } from "express";
 import * as services from "../services/character.service.js";
 import { NotFoundError } from "../utils/errors/custom/client.errors.js";
-import Character from "../interfaces/entities/character.interface.js";
+import { PopulatedCharacter } from "../interfaces/entities/character.interface.js";
+import {
+  formatCharacter,
+  formatCharacters,
+} from "../utils/format/cleanCharacters.format.js";
 
 /**
  * Endpoint to handle the HTTP GET request to retrieve all characters.
@@ -9,7 +13,7 @@ import Character from "../interfaces/entities/character.interface.js";
  * @async
  * @function getAllCharacters
  * @param {Request} req - HTTP request object.
- * @param {Response<Character[]>} res - HTTP response object.
+ * @param {Response<PopulatedCharacter[]>} res - HTTP response object.
  * @param {NextFunction} next - The next middleware function in the stack.
  * @returns {Promise<void>} A JSON response containing the list of characters or an error message.
  *
@@ -18,7 +22,7 @@ import Character from "../interfaces/entities/character.interface.js";
  */
 export async function getAllCharacters(
   req: Request,
-  res: Response<Character[]>,
+  res: Response<PopulatedCharacter[]>,
   next: NextFunction
 ): Promise<void> {
   try {
@@ -27,7 +31,9 @@ export async function getAllCharacters(
     if (!characters || characters.length === 0)
       throw new NotFoundError("No characters found");
 
-    res.status(200).json(characters);
+    const cleanCharacters = formatCharacters(characters);
+
+    res.status(200).json(cleanCharacters);
   } catch (error) {
     const typedError = error as Error;
 
@@ -43,7 +49,7 @@ export async function getAllCharacters(
  * @async
  * @function getCharacterById
  * @param {Request} req - HTTP request object.
- * @param {Response<Character>} res - HTTP response object.
+ * @param {Response<PopulatedCharacter>} res - HTTP response object.
  * @param {NextFunction} next - The next middleware function in the stack.
  * @returns {Promise<void>} A JSON response containing the character found or an error message.
  *
@@ -52,7 +58,7 @@ export async function getAllCharacters(
  */
 export async function getCharacterById(
   req: Request,
-  res: Response<Character>,
+  res: Response<PopulatedCharacter>,
   next: NextFunction
 ): Promise<void> {
   try {
@@ -61,7 +67,9 @@ export async function getCharacterById(
 
     if (!character) throw new NotFoundError("No character found");
 
-    res.status(200).json(character);
+    const cleanCharacter = formatCharacter(character);
+
+    res.status(200).json(cleanCharacter);
   } catch (error) {
     const typedError = error as Error;
 

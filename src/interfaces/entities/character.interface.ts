@@ -24,3 +24,10 @@ export default interface Character {
   createdAt?: Date;
   updatedAt?: Date;
 }
+
+export interface PopulatedCharacter
+  extends Omit<Character, "species" | "origin" | "location"> {
+  species: string | null;
+  origin: string | null;
+  location: string | null;
+}
