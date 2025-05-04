@@ -6,7 +6,7 @@ const characterSchema = new mongoose.Schema(
     id: { type: Number, required: true, unique: true },
     fullName: { type: String, required: true, trim: true },
     shortName: { type: String, required: true, trim: true },
-    age: { type: Number, required: true, trim: true },
+    age: { type: String, required: true, trim: true },
     gender: { type: String, required: true, trim: true },
     status: { type: String, required: true, trim: true },
     occupation: { type: String, required: true, trim: true },

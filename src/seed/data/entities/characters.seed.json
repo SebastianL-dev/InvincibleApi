@@ -4,11 +4,11 @@
     "id": 1,
     "fullName": "Markus Sebastian Grayson",
     "shortName": "Mark Grayson",
-    "age": 19,
+    "age": "19",
     "gender": "Male",
     "status": "Alive",
     "occupation": "Superhero",
-    "description": "Mark Grayson, also known as Invincible, is a half-human, half-Viltrumite superhero. He’s the son of Omni-Man and develops his powers as a teenager, trying to balance hero life with being a regular boy.",
+    "description": "Markus Sebastian Grayson is the titular main protagonist of the series of the same name. He is the Viltrumite-Human hybrid superhero Invincible, the son of Nolan and Debbie Grayson, the paternal older half-brother of Oliver Grayson, and the boyfriend of Eve Wilkins/Atom Eve.",
     "species": "68012c72b189d07128960d5e",
     "origin": "67f7e206d58dea7da5c728b0",
     "location": "67f7e206d58dea7da5c728b0",
@@ -19,5 +19,173 @@
       "alternative": ""
     },
     "createdAt": "2025-04-13T02:54:06.102Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd3c",
+    "id": 2,
+    "fullName": "Nolan Grayson",
+    "shortName": "Nolan",
+    "age": "+2000",
+    "gender": "Male",
+    "status": "Alive",
+    "occupation": "Coalition Soldier",
+    "description": "Nolan is one of the deuteragonists of Invincible, initially debuting as the main antagonist of Season 1, before beginning to redeem himself as the deuteragonist in Season 2 and onwards. He is infamously known as the fallen \"superhero\" Omni-Man, who is also secretly known by his adopted Earth name Nolan Grayson. He is the estranged husband of his first wife Debbie Grayson and widower to his late second wife Andressa, the father of Mark and Oliver Grayson.",
+    "species": "67fd42f37986bd9ae80bea53",
+    "origin": "6801494b57997e985a2ff893",
+    "location": "68014ac1b00a9707ca74e280",
+    "firstAppearance": "67f7e02cfe6d81597fa30489",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.055Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd3d",
+    "id": 3,
+    "fullName": "Deborah Grayson",
+    "shortName": "Debbie",
+    "age": "42",
+    "gender": "Female",
+    "status": "Alive",
+    "occupation": "Real Estate Agent",
+    "description": "Deborah Grayson is a major character in Invincible, debuting as one of the deuteragonists of Season 1 and tritagonists of Season 2 and onwards. She is the wife of Nolan Grayson, the mother of Mark and legal stepmother of Oliver Grayson.",
+    "species": "67f7e2553a65c539cc28556f",
+    "origin": "67f7e206d58dea7da5c728b0",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67f7e02cfe6d81597fa30489",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.056Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd3e",
+    "id": 4,
+    "fullName": "Oliver Grayson",
+    "shortName": "Oliver",
+    "age": "1",
+    "gender": "Male",
+    "status": "Alive",
+    "occupation": "Superhero",
+    "description": "Oliver Grayson is one of the deuteragonists in Invincible, debuting from Season 2 and onwards. He is the Viltrumite-Thraxan hybrid son of Nolan Grayson and Andressa, the legal stepson of Debbie Grayson, as well as the paternal younger half-brother of Mark Grayson.",
+    "species": "68012c72b189d07128960d5e",
+    "origin": "6801494b57997e985a2ff894",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecc1",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.056Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd3f",
+    "id": 5,
+    "fullName": "Conquest",
+    "shortName": "Conquest",
+    "age": "+5000",
+    "gender": "Male",
+    "status": "Incapacitated",
+    "occupation": "Military Soldier",
+    "description": "Conquest is a major antagonist in Invincible, debuting as one of the main antagonists of Season 3 and 4. He is the former mentor of \"The Great Nolan\".",
+    "species": "67fd42f37986bd9ae80bea53",
+    "origin": "6801494b57997e985a2ff893",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecbd",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.056Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd40",
+    "id": 6,
+    "fullName": "Samantha Eve Wilkins",
+    "shortName": "Eve",
+    "age": "19",
+    "gender": "Female",
+    "status": "Alive",
+    "occupation": "Superhero",
+    "description": "Samantha Eve Wilkins, better known by her superhero moniker, Atom Eve, is the tritagonist of Invincible, and the main protagonist of her own prequel story. She is a genetically bioengineered superhuman, and the girlfriend of Mark Grayson.",
+    "species": "67f7e2553a65c539cc28556f",
+    "origin": "67f7e206d58dea7da5c728b0",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecb7",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.057Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd41",
+    "id": 7,
+    "fullName": "Rex Sloan",
+    "shortName": "Rex",
+    "age": "19",
+    "gender": "Male",
+    "status": "Deceased",
+    "occupation": "Superhero",
+    "description": "Rex Sloan, was a major character in Invincible, serving from Season 1 to 3. He was the superhero Rex Splode, who had the ability to generate explosive energy. He was a former member of Teen Team before it disbanded and he became a member of the newly formed Guardians of the Globe.",
+    "species": "67f7e2553a65c539cc28556f",
+    "origin": "67f7e206d58dea7da5c728b0",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecb7",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.057Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd42",
+    "id": 8,
+    "fullName": "Thokk",
+    "shortName": "Thokk",
+    "age": "Unknown",
+    "gender": "Male",
+    "status": "Alive",
+    "occupation": "Intergalactic Warrior",
+    "description": "Thokk, more commonly known as Battle Beast, is a supporting character in Invincible, debuting from Season 1 and onwards. He is an intergalactic warrior, searching for a worthy opponent to battle and provide him with a glorious death.",
+    "species": "67fd42f37986bd9ae80bea5e",
+    "origin": "6801494b57997e985a2ff8bf",
+    "location": "68014ac1b00a9707ca74e280",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecba",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.057Z"
+  },
+  {
+    "_id": "6816cda2e3b49dcb6858fd43",
+    "id": 9,
+    "fullName": "Unknown",
+    "shortName": "Inmortal",
+    "age": "+3000",
+    "gender": "Male",
+    "status": "Alive",
+    "occupation": "Superhero",
+    "description": "The Immortal is a supporting character in Invincible. He is a superhero who was gifted with immortality from long ago, with his longevity, he would leave his mark on history, becoming a knight (possibly King Arthur or a Knight of the Round Table), and even the renowned Abraham Lincoln, before eventually donning a cape and costume sometime in the early 20th century.",
+    "species": "67f7e2553a65c539cc28556f",
+    "origin": "67f7e206d58dea7da5c728b0",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67f7e02cfe6d81597fa30489",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    },
+    "createdAt": "2025-05-04T02:14:58.057Z"
   }
 ]

@@ -11,7 +11,7 @@ export default interface Character {
   id: number;
   fullName: string;
   shortName: string;
-  age: number;
+  age: string;
   gender: string;
   status: string;
   occupation: string;
