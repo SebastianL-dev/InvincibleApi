@@ -25,7 +25,7 @@
     "id": 2,
     "fullName": "Nolan Grayson",
     "shortName": "Nolan",
-    "age": "+2000",
+    "age": "2000+",
     "gender": "Male",
     "status": "Alive",
     "occupation": "Coalition Soldier",
@@ -88,7 +88,7 @@
     "id": 5,
     "fullName": "Conquest",
     "shortName": "Conquest",
-    "age": "+5000",
+    "age": "5000+",
     "gender": "Male",
     "status": "Incapacitated",
     "occupation": "Military Soldier",
@@ -172,7 +172,7 @@
     "id": 9,
     "fullName": "Unknown",
     "shortName": "Inmortal",
-    "age": "+3000",
+    "age": "3000+",
     "gender": "Male",
     "status": "Alive",
     "occupation": "Superhero",
@@ -187,5 +187,43 @@
       "alternative": ""
     },
     "createdAt": "2025-05-04T02:14:58.057Z"
+  },
+  {
+    "id": 10,
+    "fullName": "Adam Wilkins",
+    "shortName": "Adam Wilkins",
+    "age": "40s",
+    "gender": "Male",
+    "status": "Alive",
+    "occupation": "Employee",
+    "description": "Adam Wilkins is a supporting character in Invincible, debuting from Season 1 and onwards. He is the adoptive father of Samantha Eve Wilkins.",
+    "species": "67f7e2553a65c539cc28556f",
+    "origin": "67f7e206d58dea7da5c728b0",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecba",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
+  },
+  {
+    "id": 11,
+    "fullName": "Unknown",
+    "shortName": "Agent Spider",
+    "age": "Unknown",
+    "gender": "Male",
+    "status": "Alive",
+    "occupation": "Superhero",
+    "description": "Agent Spider is an alternate reality spider-themed superhero that Invincible meets after Angstrom Levy sends him through the multiverse.",
+    "species": "67f7e2553a65c539cc28556f",
+    "origin": "67f7e206d58dea7da5c728b0",
+    "location": "67f7e206d58dea7da5c728b0",
+    "firstAppearance": "67fc8d4f34cbde83b9fdecc5",
+    "images": {
+      "main": "https://",
+      "variant": "",
+      "alternative": ""
+    }
   }
 ]

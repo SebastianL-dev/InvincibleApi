@@ -25,6 +25,11 @@ export default interface Character {
   updatedAt?: Date;
 }
 
+/**
+ * Affiliation with poppulated species, origin and location.
+ *
+ * @interface PopulatedCharacter
+ */
 export interface PopulatedCharacter
   extends Omit<Character, "species" | "origin" | "location"> {
   species: string | null;
