@@ -4,11 +4,6 @@ import { EnvConfig } from "../../config/env.config.js";
 
 const env = EnvConfig();
 
-/**
- * Prints a styled banner to the console.
- *
- * @function printBanner
- */
 export function printBanner() {
   console.clear();
 
@@ -29,11 +24,6 @@ export function printBanner() {
   console.log(chalk.gray("─".repeat(78)));
 }
 
-/**
- * Prints styled server info to the console.
- *
- * @function printServerInfo
- */
 export function printServerInfo() {
   console.log(chalk.blue("\n  ▶ Invincible API v0.0.1"));
   console.log(chalk.green("\n  ✓"), "Server running succesfully!");

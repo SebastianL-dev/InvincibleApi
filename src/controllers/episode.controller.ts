@@ -3,19 +3,6 @@ import * as services from "../services/episode.service.js";
 import { NotFoundError } from "../utils/errors/custom/client.errors.js";
 import Episode from "../interfaces/entities/episode.interface.js";
 
-/**
- * Endpoint to handle the HTTP GET request to retrieve all episodes.
- *
- * @async
- * @function getAllEpisodes
- * @param {Request} req - HTTP request object.
- * @param {Response<Episode[]>} res - HTTP response object.
- * @param {NextFunction} next - The next middleware function in the stack.
- * @returns {Promise<void>} A JSON response containing the list of episodes or an error message.
- *
- * @throws {NotFoundError} If the episode list is empty or null.
- * @throws {Error} For any other unexpected errors during execution.
- */
 export async function getAllEpisodes(
   req: Request,
   res: Response<Episode[]>,
@@ -36,20 +23,6 @@ export async function getAllEpisodes(
   }
 }
 
-/**
- * Endpoint to handle the HTTP GET request to retrieve one episode
- * searching by its unique identifier.
- *
- * @async
- * @function getEpisodeById
- * @param {Request} req - HTTP request object.
- * @param {Response<Episode>} res - HTTP response object.
- * @param {NextFunction} next - The next middleware function in the stack.
- * @returns {Promise<void>} A JSON response containing the episode found or an error message.
- *
- * @throws {NotFoundError} If the episode with the specified ID is not found.
- * @throws {Error} For any other unexpected errors during execution.
- */
 export async function getEpisodeById(
   req: Request,
   res: Response<Episode>,

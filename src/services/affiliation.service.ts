@@ -27,14 +27,6 @@ export async function findAllAffiliations(): Promise<Affiliation[]> {
   return foundAffiliations;
 }
 
-/**
- * Find an affiliation from the database, searching by its unique identifier.
- *
- * @async
- * @function findAffiliationById
- * @param {number} id - The unique identifier of the affiliation to find.
- * @returns {Promise<Affiliation | null>} A promise that resolves an affiliation with populated fields.
- */
 export async function findAffiliationById(id: number) {
   const reply = await redisClient.get(`affiliation_${id}`);
 

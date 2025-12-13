@@ -3,13 +3,6 @@ import speciesModel from "../models/entities/species.model.js";
 import { speciesPopulateOptions } from "../populate/species.populate.js";
 import { redisClient } from "../server.js";
 
-/**
- * Find a list of species from the database.
- *
- * @async
- * @function findAllSpecies
- * @returns {Promise<Species[]>} A promise that resolves to a list of species.
- */
 export async function findAllSpecies(): Promise<Species[]> {
   const reply = await redisClient.get("species");
 
@@ -26,14 +19,6 @@ export async function findAllSpecies(): Promise<Species[]> {
   return foundSpecies;
 }
 
-/**
- * Find an species from the database, searching by its unique identifier.
- *
- * @async
- * @function findSpeciesById
- * @param {number} id - The unique identifier of the species to find.
- * @returns {Promise<Species | null>} A promise that resolves species.
- */
 export async function findSpeciesById(id: number): Promise<Species | null> {
   const reply = await redisClient.get(`species_${id}`);
 

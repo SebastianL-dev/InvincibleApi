@@ -11,11 +11,6 @@ import { performance } from "node:perf_hooks";
 
 export const startTime = performance.now();
 
-/**
- * Express app configuration and redis configuration.
- * Applies middleware and sets base API routes.
- */
-
 const app: Application = express();
 const route = "/api";
 

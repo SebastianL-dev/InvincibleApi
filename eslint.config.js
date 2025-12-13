@@ -15,30 +15,6 @@ export default [
       jsdoc: jsdocPlugin,
     },
     rules: {
-      "jsdoc/check-indentation": "warn",
-      "jsdoc/check-param-names": "warn",
-      "jsdoc/check-tag-names": "warn",
-      "jsdoc/check-types": "warn",
-      "jsdoc/require-jsdoc": [
-        "warn",
-        {
-          require: {
-            FunctionDeclaration: true,
-            MethodDefinition: true,
-            ClassDeclaration: true,
-            ArrowFunctionExpression: true,
-            FunctionExpression: true,
-          },
-        },
-      ],
-      "jsdoc/require-description": "warn",
-      "jsdoc/require-param": "warn",
-      "jsdoc/require-param-description": "warn",
-      "jsdoc/require-param-name": "warn",
-      "jsdoc/require-param-type": "warn",
-      "jsdoc/require-returns": "warn",
-      "jsdoc/require-returns-description": "warn",
-      "jsdoc/require-returns-type": "warn",
       "@typescript-eslint/no-unused-vars": [
         "warn",
         {

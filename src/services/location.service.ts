@@ -3,13 +3,6 @@ import locationModel from "../models/entities/location.model.js";
 import { locationPopulateOptions } from "../populate/location.populate.js";
 import { redisClient } from "../server.js";
 
-/**
- * Find a list of location from the database.
- *
- * @async
- * @function findAllLocations
- * @returns {Promise<Location[]>} A promise that resolves to a list of locations.
- */
 export async function findAllLocations(): Promise<Location[]> {
   const reply = await redisClient.get("locations");
 
@@ -26,14 +19,6 @@ export async function findAllLocations(): Promise<Location[]> {
   return foundLocations;
 }
 
-/**
- * Find a location from the database, searching by its unique identifier.
- *
- * @async
- * @function findLocationById
- * @param {number} id - The unique identifier of the episode to find.
- * @returns {Promise<Location | null>} A promise that resolves location.
- */
 export async function findLocationById(id: number): Promise<Location | null> {
   const reply = await redisClient.get(`location_${id}`);
 

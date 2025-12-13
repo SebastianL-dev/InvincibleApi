@@ -5,19 +5,9 @@ import { performance } from "node:perf_hooks";
 import { startTime } from "../../app.js";
 import startUpTimeFormat from "../../utils/format/startUpTime.format.js";
 
-/**
- * Get the environment variables and URI for connecting to the MongoDB database.
- */
 const env = EnvConfig();
 const uri = env.mongo_uri;
 
-/**
- * Connect the app with the MongoDB database using mongoose.
- * On error, show a message and retry the connection.
- *
- * @async
- * @function connect
- */
 const connect = async () => {
   try {
     await mongoose.connect(uri, {});

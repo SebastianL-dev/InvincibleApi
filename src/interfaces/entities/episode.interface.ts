@@ -1,10 +1,5 @@
 import { Types } from "mongoose";
 
-/**
- * Fields required by episode model
- *
- * @interface Episode
- */
 export default interface Episode {
   _id?: Types.ObjectId;
   id: number;

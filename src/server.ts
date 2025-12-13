@@ -8,10 +8,6 @@ import {
   printServerInfo,
 } from "./utils/console/prints.console.js";
 
-/**
- * Entry point of the Invincible API server.
- * Sets up environment, database, and starts the Express app.
- */
 const env = EnvConfig();
 
 const redisUrl =
@@ -23,12 +19,6 @@ export const redisClient = createClient({
   url: redisUrl,
 });
 
-/**
- * Initialize redis client and Express server.
- *
- * @async
- * @function startServer
- */
 const startServer = async () => {
   try {
     await redisClient.connect();

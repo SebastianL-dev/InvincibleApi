@@ -2,21 +2,6 @@ import { NextFunction, Request, Response } from "express";
 import HttpError from "../interfaces/error/error.interface.js";
 import { BaseHttpError } from "../utils/errors/custom.error.js";
 
-/**
- * Middleware to handle errors in the application.
- *
- * @param {HttpError} err - The error object, expected to be an instance of `HttpError`.
- * @param {Request} req - The Express request object.
- * @param {Response} res - The Express response object.
- * @param {NextFunction} next - The next middleware function in the stack.
- *
- * This middleware checks if the error is an instance of `BaseHttpError`.
- * If so, it extracts the `message`, `name`, and `status` properties from the error
- * and sends them as a JSON response with the appropriate HTTP status code.
- *
- * If the error is not an instance of `BaseHttpError`, it sends a generic
- * "Internal Server Error" response with a 500 status code.
- */
 export const errorMiddleware = (
   err: HttpError,
   req: Request,

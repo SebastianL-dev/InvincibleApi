@@ -30,17 +30,6 @@ const affiliationsData: Affiliation[] = JSON.parse(
 if (fs.existsSync(hashFilePath))
   savedHash = fs.readFileSync(hashFilePath, "utf-8").trim();
 
-/**
- * Seeds the database with affiliation data by performing the following steps:
- * 1. Cleans the existing affiliations collection in the database.
- * 2. Normalizes and inserts new affiliation data into the collection.
- * 3. Updates the JSON files with the newly inserted affiliation data.
- *
- * @async
- * @function affiliationsSeed
- *
- * @throws {Error} Throws an error if any of the database operations or file writes fail.
- */
 export default async function affiliationsSeed() {
   try {
     console.log(chalk.yellow("\n  ▶ Affiliations collection"));
