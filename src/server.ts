@@ -10,17 +10,17 @@ const startServer = async () => {
   try {
     app.listen("8080");
 
-    connect();
-
     printBanner();
     printServerInfo();
+
+    connect();
   } catch (error) {
     const typedError = error as Error;
 
     console.log(chalk.red("\n   ✕"), "Oops, something went wrong: ");
     console.error(typedError);
 
-    process.exit(0);
+    process.exit(1);
   }
 };
 

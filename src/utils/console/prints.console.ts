@@ -1,8 +1,5 @@
 import chalk from "chalk";
 import figlet from "figlet";
-import { EnvConfig } from "../../config/env.config.js";
-
-const env = EnvConfig();
 
 export function printBanner() {
   console.clear();
@@ -27,5 +24,5 @@ export function printBanner() {
 export function printServerInfo() {
   console.log(chalk.blue("\n  ▶ Invincible API v0.0.1"));
   console.log(chalk.green("\n  ✓"), "Server running succesfully!");
-  console.log(chalk.black(`  ○ Host: http://localhost:${env.port}`));
+  console.log(chalk.black(`  ○ Host: http://localhost:8080`));
 }
