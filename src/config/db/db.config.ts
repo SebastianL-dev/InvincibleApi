@@ -13,10 +13,12 @@ const connect = async () => {
     await mongoose.connect(uri, {});
 
     console.log(chalk.green("\n  ✓"), "Succesfully conected to database");
+
     console.log(
       chalk.green("  ✓"),
       `Ready in ${startUpTimeFormat(performance.now() - startTime)}`
     );
+
     console.log(
       chalk.black("  ▶ Remember visite our site: "),
       chalk.blue("https://")
@@ -24,14 +26,18 @@ const connect = async () => {
   } catch (error) {
     const typedError = error as Error;
 
-    console.log(chalk.red("\n  ✕"), "Oops, something went wrong: ");
+    console.log(chalk.red("\n  ✕"), "Oops, can't connect to database: ");
     console.error(typedError);
 
-    console.log(chalk.black("\n  ◔ Reconnecting..."));
+    for (let i = 0; i <= 3; i++) {
+      console.log(chalk.black("\n  ◔ Reconnecting in 5 seconds..."));
 
-    setTimeout(() => {
-      connect();
-    }, 5000);
+      setTimeout(() => {
+        connect();
+      }, 5000);
+    }
+
+    process.exit(1);
   }
 };
 

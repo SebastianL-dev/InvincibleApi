@@ -1,28 +1,16 @@
 import app from "./app.js";
 import connect from "./config/db/db.config.js";
 import chalk from "chalk";
-import { EnvConfig } from "./config/env.config.js";
-import { createClient } from "redis";
 import {
   printBanner,
   printServerInfo,
 } from "./utils/console/prints.console.js";
 
-const env = EnvConfig();
-
-const redisUrl =
-  process.env.NODE_ENV === "production"
-    ? env.redis_url
-    : "redis://localhost:6379";
-
-export const redisClient = createClient({
-  url: redisUrl,
-});
-
 const startServer = async () => {
   try {
-    await redisClient.connect();
-    app.listen(env.port);
+    app.listen("8080");
+
+    connect();
 
     printBanner();
     printServerInfo();
@@ -32,9 +20,8 @@ const startServer = async () => {
     console.log(chalk.red("\n   ✕"), "Oops, something went wrong: ");
     console.error(typedError);
 
-    process.exit();
+    process.exit(0);
   }
 };
 
 startServer();
-void connect();

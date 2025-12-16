@@ -1,11 +1,14 @@
 # Logs
-/.vscode
+.vscode/
 
 # Dependencies
-/node_modules
+node_modules/
 
 # Build directory
-/dist
+dist/
+
+# Seed Files
+seed/
 
 # Enviroment variables
 .env
