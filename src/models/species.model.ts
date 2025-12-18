@@ -3,16 +3,28 @@ import mongoose from "mongoose";
 const speciesSchema = new mongoose.Schema(
   {
     id: { type: String, required: true, unique: true },
-    name: { type: String, require: true },
-    status: { type: String, enum: ["Active", "Endangered"] },
+    name: { type: String, required: true },
+    status: { type: String, enum: ["Active", "Endangered", "Unknown"] },
+    leader: { type: String },
+
     home: {
       type: mongoose.SchemaTypes.ObjectId,
       ref: "Location",
       required: true,
     },
-    images: [{ type: String, required: true }],
+
+    description: [{ type: String, required: true }],
+    characteristics: [{ type: String, required: true }],
+    powers: [{ type: String }],
+    abilities: [{ type: String }],
+    weakness: [{ type: String }],
+
+    images: {
+      main: { type: String },
+      gallery: [{ type: String }],
+    },
   },
-  { timestamps: false, versionKey: false }
+  { timestamps: true, versionKey: false }
 );
 
 const speciesModel = mongoose.model("Species", speciesSchema);

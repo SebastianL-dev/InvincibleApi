@@ -1,16 +1,32 @@
 import mongoose from "mongoose";
 
 export default interface Character {
+  _id?: mongoose.Types.ObjectId;
   id: number;
   fullName: string;
   shortName: string;
-  otherNames?: string[];
+  alias?: string;
+  codeNames?: string[];
+  nickNames?: string[];
   age: string;
-  gender: "Male" | "Female";
+  gender: "Male" | "Female" | "Unknown";
   status: "Alive" | "Deceased" | "Unknown";
-  occupation: string;
+  role: string;
+  occupations?: string[];
+  powers?: string[];
+  abilities?: string[];
   description: string[];
-  species: mongoose.Types.ObjectId;
+
   origin: mongoose.Types.ObjectId;
-  images: string[];
+  species: mongoose.Types.ObjectId;
+
+  affiliations?: mongoose.Types.ObjectId[];
+  relatives?: mongoose.Types.ObjectId[];
+  allies?: mongoose.Types.ObjectId[];
+  enemies?: mongoose.Types.ObjectId[];
+
+  images: {
+    variants?: string[];
+    wallpaper?: string;
+  };
 }
