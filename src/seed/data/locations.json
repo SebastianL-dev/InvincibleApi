@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "6943742c2e52e7987f87272c",
+    "id": 1,
+    "name": "Earth",
+    "type": "Planet",
+    "status": "Active",
+    "inhabitants": ["69437583c3970ff784b633fe"],
+    "description": [
+      "Earth is a rocky, terrestrial planet with a diverse and dynamic surface. Its landscape features mountains, valleys, canyons, plains, and a wide variety of other geological formations. Known as an ocean planet, roughly 70% of Earth's surface is covered by vast bodies of water, shaping both its climate and the billions of life it supports."
+    ],
+    "cataclysmicEvents": [
+      "Flaxan Invasion",
+      "Destruction of Chicago",
+      "Advent of Omnipotus",
+      "America Under Siege",
+      "Invincible War",
+      "Advent of Conquest",
+      "Sequids Attack Earth",
+      "Universa's Arrival",
+      "Revenge of the Flaxans"
+    ],
+    "pointsOfInterest": [],
+    "images": {
+      "main": "",
+      "gallery": []
+    }
+  }
+]

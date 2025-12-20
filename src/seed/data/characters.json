@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "fullName": "Markus Sebastian Grayson",
+    "shortName": "Mark Grayson",
+    "alias": "Invincible",
+    "codeNames": ["Duct Tape Man", "Invinciboy", "Viltrumite Subject 2"],
+    "nickNames": ["Brah-Brah", "Scout Boy", "Token Diversity"],
+    "age": "20",
+    "gender": "Male",
+    "status": "Alive",
+    "role": "Superhero",
+    "occupations": [
+      "Superhero Mentor",
+      "Agent of Invincible Inc.",
+      "Upstate University Student",
+      "Reginald Vel Johnson High School Student",
+      "Burger Mart Employee"
+    ],
+    "powers": [
+      "Viltrumite-Human Hybrid Physiology",
+      "Anger Empowerment",
+      "Decelerated Aging",
+      "Dominant Genes",
+      "Flight",
+      "Superhuman Strength",
+      "Nigh-Invulnerability",
+      "Superhuman Speed",
+      "Reactive Adaptation",
+      "Regenerative Healing Factor",
+      "Superhuman Lung Capacity",
+      "Superhuman Senses",
+      "Self-Sustenance",
+      "Superhuman Stamina"
+    ],
+    "abilities": [
+      "Expert Combatant",
+      "Indomitable Will",
+      "High-Level Intellect/Leadership"
+    ],
+    "description": [
+      "Markus Sebastian \"Mark\" Grayson is the titular protagonist of the series of the same name. A Viltrumite-Human hybrid, he is the superhero known as Invincible, the son of Nolan and Debbie Grayson, the paternal older half-brother of Oliver Grayson II and the maternal grandson of Oliver. He is also the boyfriend of Eve Wilkins/Atom Eve.",
+      "Mark gained his powers at the age of 17 and began his superhero journey under the mentorship of his father. After a brief stint with Teen Team, he allied with Atom Eve, the second incarnation of the Guardians of the Globe, and Cecil Stedman of the Global Defense Agency to protect Earth from a wide range of threats. As his duties grew, Mark also took it upon himself to confront the looming danger of the Viltrum Empire, striving to safeguard not just Earth, but the galaxy itself."
+    ],
+    "origin": "6943742c2e52e7987f87272c",
+    "species": "69437583c3970ff784b633fe",
+    "images": {
+      "variants": [],
+      "wallpaper": ""
+    }
+  }
+]

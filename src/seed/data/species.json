@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "69437583c3970ff784b633fe",
+    "id": 1,
+    "name": "Humans",
+    "status": "Active",
+    "leader": "Many national governments around Earth",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "Humans are the dominant intelligent species native to Earth and serve as the planet's primary sentient life form, notable for their technological advancement and resilience in a universe filled with super-powered beings and alien civilizations."
+    ],
+    "characteristics": [
+      "Humans are a deeply complex species, embodying a broad spectrum of traits that range from admirable virtues to troubling flaws. On the positive side, humans are incredibly intelligent, creative, and resilient, qualities that have allowed them to build advanced civilizations and develop technology capable of defending their planet against threats far beyond ordinary means. Their capacity for empathy, cooperation, and moral reasoning drives much of their progress and their desire to protect others. However, humans also exhibit darker tendencies: fear, greed, selfishness, and prejudice often fuel conflicts within and between their societies.",
+      "This darker side sometimes leads to the exploitation of natural resources, internal power struggles, and the misuse of advanced technology, which can have catastrophic consequences. Moreover, humans are often caught in moral ambiguity, making choices where the line between right and wrong blurs, whether in pursuit of security, power, or survival. The rise of super-powered individuals has only intensified these complexities, as the presence of godlike beings raises questions about responsibility, control, and the potential for corruption. Ultimately, humanity is a species defined by its contradictions, continuously balancing hope and despair, heroism and villainy, light and shadow."
+    ],
+    "powers": [],
+    "abilities": ["Intelligence", "Indomitable Will"],
+    "weakness": ["Human Physiology"],
+    "images": {
+      "main": "",
+      "gallery": []
+    }
+  }
+]

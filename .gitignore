@@ -7,8 +7,5 @@ node_modules/
 # Build directory
 dist/
 
-# Seed Files
-seed/
-
 # Enviroment variables
 .env
