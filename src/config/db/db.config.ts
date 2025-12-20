@@ -1,9 +1,8 @@
 import mongoose from "mongoose";
 import chalk from "chalk";
 import { EnvConfig } from "../env.config.js";
-import { performance } from "node:perf_hooks";
 import { startTime } from "../../app.js";
-import startUpTimeFormat from "../../utils/format/startUpTime.format.js";
+import { printExecutionInfo } from "../../utils/console/prints.console.js";
 
 const env = EnvConfig();
 const uri = env.mongo_uri;
@@ -14,21 +13,15 @@ const connect = async () => {
 
     console.log(chalk.green("\n  ✓"), "Succesfully conected to database");
 
-    console.log(
-      chalk.green("  ✓"),
-      `Ready in ${startUpTimeFormat(performance.now() - startTime)}`
-    );
-
-    console.log(
-      chalk.black("  ▶ Remember visite our site: "),
-      chalk.blue("https://")
-    );
+    // Show time taken in connect to database and start the server.
+    printExecutionInfo(startTime);
   } catch (error) {
     const typedError = error as Error;
 
     console.log(chalk.red("\n  ✕"), "Oops, can't connect to database: ");
     console.error(typedError);
 
+    // Try 3 times to connect to database.
     for (let i = 0; i <= 3; i++) {
       console.log(chalk.black("\n  ◔ Reconnecting in 5 seconds..."));
 

@@ -3,6 +3,7 @@ import envScheme from "../zod/env.scheme.js";
 
 dotenv.config();
 
+// Verify if environment variables are valid.
 const { MONGO_URI: mongo_uri, REDIS_URL: redis_url } = envScheme.parse(
   process.env
 );

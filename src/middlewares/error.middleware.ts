@@ -8,8 +8,10 @@ export const errorMiddleware = (
   res: Response,
   next: NextFunction
 ) => {
+  // If there are no errors, skip.
   if (!err) next();
 
+  // On error, send a response to server.
   if (err instanceof BaseHttpError) {
     const { message, name, status } = err;
 

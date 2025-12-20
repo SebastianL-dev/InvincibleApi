@@ -13,7 +13,7 @@ const startServer = async () => {
     printBanner();
     printServerInfo();
 
-    connect();
+    await connect();
   } catch (error) {
     const typedError = error as Error;
 

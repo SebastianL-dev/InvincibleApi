@@ -1,3 +1,4 @@
+// Base class to create application errors.
 export class BaseHttpError extends Error {
   status: number;
 
@@ -10,6 +11,7 @@ export class BaseHttpError extends Error {
   }
 }
 
+// Factory to create application errors.
 export const createAppError = function (
   name: string,
   status: number

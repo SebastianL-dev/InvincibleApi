@@ -2,7 +2,7 @@ import express, { Application } from "express";
 import cors from "cors";
 import logger from "morgan";
 import { errorMiddleware } from "./middlewares/error.middleware.js";
-import { performance } from "node:perf_hooks";
+import { performance } from "perf_hooks";
 
 export const startTime = performance.now();
 
