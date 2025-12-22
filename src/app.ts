@@ -3,8 +3,9 @@ import cors from "cors";
 import logger from "morgan";
 import { errorMiddleware } from "./middlewares/error.middleware.js";
 import { performance } from "perf_hooks";
-import charactersRoute from "./routes/characters.route.js";
 import homeRoute from "./routes/home.route.js";
+import charactersRoute from "./routes/characters.route.js";
+import speciesRoute from "./routes/species.route.js";
 
 // Import mongoose models to populate properly.
 import "./models/location.model.js";
@@ -17,8 +18,9 @@ const route = "/api";
 
 app.use(cors({ origin: "*" }), express.json(), logger("dev"));
 
-app.use(route, charactersRoute);
 app.use(route, homeRoute);
+app.use(route, charactersRoute);
+app.use(route, speciesRoute);
 
 app.use(errorMiddleware);
 
