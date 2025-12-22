@@ -13,18 +13,27 @@ const uri = env.mongo_uri;
 async function seed() {
   const startTime = performance.now();
 
-  await mongoose.connect(uri, {});
-  console.log(chalk.green("\n  ✓"), "Succesfully conected to database\n");
+  try {
+    await mongoose.connect(uri, {});
+    console.log(chalk.green("\n  ✓"), "Succesfully conected to database\n");
 
-  // Seed all collections.
-  await seedCharacters();
-  await seedLocations();
-  await seedSpecies();
+    // Seed all collections.
+    await seedCharacters();
+    await seedLocations();
+    await seedSpecies();
 
-  // Show time taken to seed database.
-  printExecutionInfo(startTime);
+    // Show time taken to seed database.
+    printExecutionInfo(startTime);
 
-  process.exit(0);
+    process.exit(0);
+  } catch (error) {
+    const typedError = error as Error;
+
+    console.log(chalk.red("\n  ✕"), "Oops, can't connect to database: ");
+    console.error(typedError);
+
+    process.exit(1);
+  }
 }
 
 seed();

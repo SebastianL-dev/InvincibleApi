@@ -37,6 +37,6 @@ export function printExecutionInfo(startTime: number) {
 
   console.log(
     chalk.black("  ▶ Remember visite our site: "),
-    chalk.blue("https://")
+    chalk.blue("https:// \n")
   );
 }

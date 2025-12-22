@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const speciesSchema = new mongoose.Schema(
   {
-    id: { type: String, required: true, unique: true },
+    id: { type: Number, required: true, unique: true },
     name: { type: String, required: true },
     status: { type: String, enum: ["Active", "Endangered", "Unknown"] },
     leader: { type: String },

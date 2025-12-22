@@ -15,10 +15,12 @@ const characterSchema = new mongoose.Schema(
       enum: ["Alive", "Deceased", "Unknown"],
       required: true,
     },
+    role: { type: String, required: true },
     occupations: [{ type: String }],
     powers: [{ type: String }],
     abilities: [{ type: String }],
     description: [{ type: String, required: true }],
+    quotes: [{ type: String }],
 
     origin: {
       type: mongoose.SchemaTypes.ObjectId,

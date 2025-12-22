@@ -16,6 +16,7 @@ export default interface Character {
   powers?: string[];
   abilities?: string[];
   description: string[];
+  quotes?: string[];
 
   origin: mongoose.Types.ObjectId;
   species: mongoose.Types.ObjectId;

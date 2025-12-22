@@ -2,7 +2,7 @@
   {
     "_id": "69437583c3970ff784b633fe",
     "id": 1,
-    "name": "Humans",
+    "name": "Human",
     "status": "Active",
     "leader": "Many national governments around Earth",
     "home": "6943742c2e52e7987f87272c",
@@ -19,6 +19,7 @@
     "images": {
       "main": "",
       "gallery": []
-    }
+    },
+    "createdAt": "2025-12-20T05:22:56.025+00:00"
   }
 ]
