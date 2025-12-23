@@ -16,18 +16,32 @@ const connect = async () => {
     // Show time taken in connect to database and start the server.
     printExecutionInfo(startTime);
   } catch (error) {
-    const typedError = error as Error;
-
-    console.log(chalk.red("\n  ✕"), "Oops, can't connect to database: ");
-    console.error(typedError);
+    console.log(chalk.red("\n  ✕ Oops, can't connect to database: "));
 
     // Try 3 times to connect to database.
-    for (let i = 0; i <= 3; i++) {
-      console.log(chalk.black("\n  ◔ Reconnecting in 5 seconds..."));
+    for (let i = 1; i <= 3; i++) {
+      console.log(
+        chalk.black(`  ◔ Reconnecting (attempt ${i}/3) in 5 seconds...`)
+      );
 
-      setTimeout(() => {
-        connect();
-      }, 5000);
+      await new Promise((resolve) => setTimeout(resolve, 5000));
+
+      // Retry connection to database
+      try {
+        await mongoose.connect(uri, {});
+
+        console.log(chalk.green("\n  ✓"), "Succesfully conected to database");
+        printExecutionInfo(startTime);
+
+        return; // Exit if successful
+      } catch (retryError) {
+        console.log(chalk.red(`\n  ✕ Attempt ${i}/3 failed`));
+
+        if (i === 3) {
+          console.error(retryError);
+          process.exit(1);
+        }
+      }
     }
 
     process.exit(1);

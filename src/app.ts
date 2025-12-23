@@ -6,6 +6,7 @@ import { performance } from "perf_hooks";
 import homeRoute from "./routes/home.route.js";
 import charactersRoute from "./routes/characters.route.js";
 import speciesRoute from "./routes/species.route.js";
+import locationsRoute from "./routes/locations.route.js";
 
 // Import mongoose models to populate properly.
 import "./models/location.model.js";
@@ -21,6 +22,7 @@ app.use(cors({ origin: "*" }), express.json(), logger("dev"));
 app.use(route, homeRoute);
 app.use(route, charactersRoute);
 app.use(route, speciesRoute);
+app.use(route, locationsRoute);
 
 app.use(errorMiddleware);
 
