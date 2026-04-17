@@ -21,5 +21,209 @@
       "gallery": []
     },
     "createdAt": "2025-12-20T05:22:56.025+00:00"
+  },
+  {
+    "_id": "694dc915a9612551618927fa",
+    "id": 2,
+    "name": "Viltrumite",
+    "status": "Endangered",
+    "leader": "Grand Regent Thragg",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "Viltrumites are a highly advanced alien race of extremely powerful superhumanoids native to the planet Viltrum. As the dominant species of the intergalactic Viltrum Empire, seeking to expand their galactic empire by conquering other planets and ruling the entire universe, they are known and feared across the galaxy as a merciless, militaristic civilization that tirelessly seeks universal supremacy.",
+      "Fueled by a brutal expansionist mentality, the Viltrumites control, suppress, and, if need be, destroy other cultures, firmly believing in the superiority of strength. Regarded as one of the most powerful and relentless entities in the known universe, they are feared for their immense physical power and uniquely advanced technology."
+    ],
+    "characteristics": [
+      "Limited information exists regarding Viltrumite culture, but their most prominent characteristic is their social Darwinism and superiority complex. They represent a mindset centered on the collective and the idea of survival of the fittest, focusing solely on the collective accomplishments of their empire while disregarding those who falter as evidence of their incompetence.",
+      "For a Viltrumite, weakness is an affliction that cannot be allowed to propagate. Despite their xenophobia towards other alien races, Viltrumites do not participate in superficial prejudices such as colorism; they assess solely on strength and capability, irrespective of skin color."
+    ],
+    "powers": [
+      "Flight",
+      "Superhuman Strength",
+      "Nigh-Invulnerability",
+      "Superhuman Speed",
+      "Superhuman Senses",
+      "Superhuman Lung Capacity",
+      "Superhuman Stamina",
+      "Dominant Genes"
+    ],
+    "abilities": [
+      "Viltrumite Physiology",
+      "Reactive Adaptation",
+      "Self-Substance",
+      "Regenerative Healing Factor",
+      "Decelerated Aging",
+      "Parasitic Immunity"
+    ],
+    "weakness": [
+      "Excessively High Frequency",
+      "Extreme Force",
+      "Scourge Virus",
+      "Savage Gravity",
+      "Emotional and Psychological Challenges"
+    ],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "694dd8d7f1b48b86c02c32d1",
+    "id": 3,
+    "name": "Thraxan",
+    "status": "Active",
+    "leader": "Unknown",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "The Thraxans are a peaceful alien species native to the planet Thraxa, known for their striking resemblance to praying mantises."
+    ],
+    "characteristics": [
+      "Thraxans are a highly intelligent and culturally refined insectoid species, defined by their rapid development, emotional depth, and deep-rooted communal values. Though their appearance is striking and alien, resembling large cyan-blue mantises with sharp spines and multifaceted eyes, their personalities often contrast their fearsome forms.",
+      "As a species, they value peace, loyalty, and gratitude, which is evident in their treatment of Nolan after he saved their ship and later became a part of their society. Thraxans are remarkably fast learners, capable of absorbing new languages, ideas, and skills in a fraction of the time it would take other species. However, this gift is tethered to their greatest limitation: an accelerated lifespan.",
+      "Thraxans live intensely short lives, maturing, aging, and dying in under a year, which lends their society a unique sense of urgency and purpose but also tragedy. Many struggle with memory retention over time, a side effect of their rapid biology, leading to emotional and cognitive disorientation in later stages of life.",
+      "Despite these challenges, Thraxans remain resilient, capable of rebuilding in the face of devastating loss and adapting swiftly to galactic scale events. They occupy a poignant space in the universe, brilliant and brave, yet fleeting, leaving a lasting impact in the brief time they exist."
+    ],
+    "powers": [],
+    "abilities": ["Intelligence", "Accelerated Learning"],
+    "weakness": ["Accelerated Aging", "Memory Loss"],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "694ddb2f06ef5fb37837b856",
+    "id": 4,
+    "name": "Atlantean",
+    "status": "Active",
+    "leader": "Aquarus and Aquaria",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "The Atlanteans are a race of aquatic beings native to Earth who live in the underwater city of Atlantis."
+    ],
+    "characteristics": [
+      "Atlanteans, appear as an anthropomorphic fish, sporting fins growing out from their backs and arms. Their skin color is also predominantly blue."
+    ],
+    "powers": [],
+    "abilities": [
+      "Atlantean Physiology",
+      "Amphibious",
+      "Superhuman Durability",
+      "Extreme Cold Resistance",
+      "Hydrokinesis"
+    ],
+    "weakness": [],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "694de146b25e3c30ed3a15dc",
+    "id": 5,
+    "name": "Aikreonian",
+    "status": "Active",
+    "leader": "Unknown",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "Nothing much is known of the Aikreonians except they have been targeted by the Viltrumites, not long after joining the Coalition of Planets. As a result, they cut off all communications."
+    ],
+    "characteristics": ["Unknown"],
+    "powers": [],
+    "abilities": [],
+    "weakness": [],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "694de3c6538dfc98161a1886",
+    "id": 6,
+    "name": "Demon",
+    "status": "Active",
+    "leader": "",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "Demons are the dominant intelligent species native to Hell.",
+      "While the general \"natural form\" of a demon isn't fully shown, individual demons have distinct appearances. For example, Damien Darkblood has a large, imposing, red-skinned, horned, and muscular humanoid form, while the Great Beast is described as a short, elderly, red-skinned demon with a short tail."
+    ],
+    "characteristics": [
+      "While very little is known about their characteristics, they seem to follow the natural order of the survival of the fittest. They are an intelligent species capable of complex thought, social structures (including a hierarchy with demon lords like the Great Beast), and are a dominant force in their realm.",
+      "Though their realm is Hell, individual demons can vary in their moral alignment. Some, like Damien Darkblood, are \"repentant\" and strive for justice to avoid returning to Hell, while others, like the Great Beast, are more traditionally malevolent, relish eating flesh, and desire power and conquest.",
+      "According to Cecil Stedman, demons possess a clear, direct, and inflexible viewpoint on even the most complicated issues."
+    ],
+    "powers": ["Immortality", "Magic", "Superhuman Physiology"],
+    "abilities": ["Intelligence", "Self-Sustenance", "Indomitable Will"],
+    "weakness": ["Exorcism"],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "694de5a76804df5c9326c236",
+    "id": 7,
+    "name": "Dornian",
+    "status": "Active",
+    "leader": "Unknown",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "The Dornians are a war race of space alien lion looking creatures."
+    ],
+    "characteristics": [
+      "The Dornians are often white furred lion, tiger like creatures, most of them have these ponytail looking braids, and are often bulky."
+    ],
+    "powers": [],
+    "abilities": [],
+    "weakness": [],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "",
+    "id": 8,
+    "name": "Flaxan",
+    "status": "Active",
+    "leader": "Flaxan Leader",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [
+      "The Flaxans are a race of inter-dimensional beings that were set on conquering planet Earth and killing its humans. Three times, they tried to invade Earth through a portal (invented by them) and began killing numerous civilians. Each time they arrived, the Flaxans were defeated by Earth's superheroes, mainly Invincible and the Teen Team."
+    ],
+    "characteristics": [""],
+    "powers": [],
+    "abilities": [],
+    "weakness": [],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
+  },
+  {
+    "_id": "",
+    "id": 0,
+    "name": "",
+    "status": "",
+    "leader": "",
+    "home": "6943742c2e52e7987f87272c",
+    "description": [""],
+    "characteristics": [""],
+    "powers": [],
+    "abilities": [],
+    "weakness": [],
+    "images": {
+      "main": "",
+      "gallery": []
+    },
+    "createdAt": ""
   }
 ]
