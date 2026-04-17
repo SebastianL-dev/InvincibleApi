@@ -1,8 +1,0 @@
-# Logs
-.vscode/
-
-# Dependencies
-node_modules/
-
-# Enviroment variables
-.env
