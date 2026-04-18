@@ -1,0 +1,25 @@
+{
+  "name": "invincible-api",
+  "version": "0.0.1",
+  "description": "API about Invincible TV Show and Comics.",
+  "type": "module",
+  "private": "true",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "restful",
+    "graphql",
+    "invincible"
+  ],
+  "author": "Sebastián Lozano",
+  "license": "BSD-3-Clause",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  }
+}
