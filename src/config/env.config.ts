@@ -7,7 +7,11 @@ dotenv.config();
 const result = EnvSchema.safeParse(process.env);
 
 if (!result.success) {
+  console.clear();
   logger.error('Invalid environment variables!');
+
+  console.log();
+  console.error(result.error);
   process.exit(1);
 }
 
