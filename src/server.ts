@@ -8,12 +8,11 @@ import ShowServerInfo from './utils/serverInfo.js';
 async function server() {
   try {
     console.clear();
-    app.listen(env.PORT);
-
     ShowBanner();
     ShowServerInfo();
 
     await connect();
+    app.listen(env.PORT);
 
     console.log();
   } catch (error) {
