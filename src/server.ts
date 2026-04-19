@@ -14,8 +14,11 @@ async function server() {
     ShowServerInfo();
 
     await connect();
+
+    console.log();
   } catch (error) {
     logger.error('Server startup failed!');
+    console.log();
     console.error(error);
 
     process.exit(1);
