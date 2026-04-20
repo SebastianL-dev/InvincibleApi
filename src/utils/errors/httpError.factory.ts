@@ -6,6 +6,8 @@ export class BaseHttpError extends Error {
 
     this.name = name;
     this.status = status;
+
+    Error.captureStackTrace(this, this.constructor);
   }
 }
 
@@ -18,8 +20,4 @@ export function createAppError(
       super(message, name, status);
     }
   };
-}
-
-export interface HttpError extends Error {
-  status: number;
 }

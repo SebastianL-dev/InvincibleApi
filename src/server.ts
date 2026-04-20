@@ -7,13 +7,12 @@ import ShowServerInfo from './utils/serverInfo.js';
 
 async function server() {
   try {
-    console.clear();
     ShowBanner();
-    ShowServerInfo();
 
     await connect();
     app.listen(env.PORT);
 
+    ShowServerInfo();
     console.log();
   } catch (error) {
     logger.error('Server startup failed!');

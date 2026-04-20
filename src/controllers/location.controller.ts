@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { findAllLocations, findLocationById } from '../services/location.service.js';
 
-export async function getAllLocations(req: Request, res: Response) {
+export async function getAllLocations(_req: Request, res: Response) {
   const locations = await findAllLocations();
 
   res.status(200).json(locations);

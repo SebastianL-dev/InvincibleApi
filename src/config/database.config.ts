@@ -7,7 +7,7 @@ const MAX_ATTEMPTS = 3;
 export default async function connect() {
   for (let attempt = 0; attempt <= MAX_ATTEMPTS; attempt++) {
     try {
-      await mongoose.connect(env.MONGODB_URI, {});
+      await mongoose.connect(env.MONGODB_URI);
       logger.success('Successfully connected to database!');
       return;
     } catch (error) {
