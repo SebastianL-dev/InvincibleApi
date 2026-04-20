@@ -1,7 +1,7 @@
-import mongoose, { InferSchemaType } from 'mongoose';
+import mongoose from 'mongoose';
 import { mediaSchema } from './media.model.js';
 
-export const imagesSchema = mongoose.Schema.create(
+export const imagesSchema = new mongoose.Schema(
   {
     gallery: { type: [mediaSchema], default: [] },
     portrait: { type: mediaSchema },

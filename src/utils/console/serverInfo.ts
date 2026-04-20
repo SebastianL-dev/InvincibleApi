@@ -1,7 +1,7 @@
 import chalk from 'chalk';
-import { env } from '../config/env.config.js';
+import { env } from '../../config/env.config.js';
 
-import pkg from '../../package.json' with { type: 'json' };
+import pkg from '../../../package.json' with { type: 'json' };
 
 export default function ShowServerInfo() {
   console.log();

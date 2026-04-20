@@ -1,7 +1,7 @@
 import mongoose, { InferSchemaType } from 'mongoose';
 import { imagesSchema } from './shared/images.model.js';
 
-const locationSchema = mongoose.Schema.create(
+const locationSchema = new mongoose.Schema(
   {
     id: { type: Number, unique: true, required: true },
     name: { type: String, required: true },

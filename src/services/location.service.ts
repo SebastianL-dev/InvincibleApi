@@ -4,7 +4,7 @@ import { NotFoundError } from '../utils/errors/client.errors.js';
 export async function findAllLocations() {
   const locations = await locationModel.find().select('-_id -updatedAt').lean();
 
-  if (!locations || locations.length === 0) throw new NotFoundError('No locations found');
+  if (!locations) throw new NotFoundError('No locations found');
 
   return locations;
 }

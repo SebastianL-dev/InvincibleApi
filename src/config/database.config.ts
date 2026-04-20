@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { env } from './env.config.js';
-import logger from '../utils/logger.js';
+import logger from '../utils/console/logger.js';
 
 const MAX_ATTEMPTS = 3;
 

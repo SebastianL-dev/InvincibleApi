@@ -1,6 +1,6 @@
-import mongoose, { InferSchemaType } from 'mongoose';
+import mongoose from 'mongoose';
 
-export const mediaSchema = mongoose.Schema.create(
+export const mediaSchema = new mongoose.Schema(
   {
     url: { type: String, required: true },
     caption: { type: String },
