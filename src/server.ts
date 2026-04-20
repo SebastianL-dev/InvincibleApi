@@ -11,7 +11,10 @@ async function server() {
     ShowBanner();
     await connect();
 
-    const server = app.listen(env.PORT, () => ShowServerInfo());
+    const server = app.listen(env.PORT, () => {
+      ShowServerInfo();
+      console.log();
+    });
 
     for (const signal of ['SIGINT', 'SIGTERM'] as const) {
       process.on(signal, async () => {
