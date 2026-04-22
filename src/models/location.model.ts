@@ -1,14 +1,21 @@
 import mongoose, { InferSchemaType } from 'mongoose';
 import { imagesSchema } from './shared/images.model.js';
 
+export const LOCATION_TYPES = ['Planet', 'City', 'Dimension', 'Building'];
+export const LOCATION_STATUSES = ['Active', 'Destroyed', 'Unknown'];
+
 const locationSchema = new mongoose.Schema(
   {
     id: { type: Number, unique: true, required: true },
     name: { type: String, required: true },
-    type: { type: String, required: true },
+    type: {
+      type: String,
+      enum: LOCATION_TYPES,
+      required: true,
+    },
     status: {
       type: String,
-      enum: ['Active', 'Destroyed', 'Unknown'],
+      enum: LOCATION_STATUSES,
       default: 'Active',
       required: true,
     },
