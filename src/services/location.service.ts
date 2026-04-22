@@ -4,22 +4,26 @@ import { NotFoundError } from '../utils/errors/client.errors.js';
 import type { LocationQuery } from '../validators/location.validator.js';
 import { escapeRegex } from '../utils/regex.js';
 
-export async function findAllLocations(query: LocationQuery = {}) {
+export async function findAllLocations(query: LocationQuery) {
+  const { page, limit, ..._filters } = query;
   const filter: QueryFilter<Location> = {};
 
   if (query.name) filter.name = { $regex: escapeRegex(query.name), $options: 'i' };
   if (query.type) filter.type = query.type;
   if (query.status) filter.status = query.status;
 
-  const locations = await locationModel
-    .find(filter)
-    .sort({ id: 1 })
-    .select('-_id -updatedAt')
-    .lean();
+  const [results, count] = await Promise.all([
+    locationModel
+      .find(filter)
+      .sort({ id: 1 })
+      .select('-_id -updatedAt')
+      .skip((page - 1) * limit)
+      .limit(limit)
+      .lean(),
+    locationModel.countDocuments(filter),
+  ]);
 
-  if (!locations) throw new NotFoundError('No locations found');
-
-  return locations;
+  return { results, count };
 }
 
 export async function findLocationById(id: number) {
