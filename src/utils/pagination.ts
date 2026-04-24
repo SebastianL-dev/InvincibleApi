@@ -1,7 +1,8 @@
 import { Request } from 'express';
+import { env } from '../config/env.config.js';
 
 export function buildPageUrl(req: Request, page: number): string {
-  const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}${req.path}`;
+  const baseUrl = `${env.BASE_URL}${req.baseUrl}${req.path}`;
   const params = new URLSearchParams();
 
   for (const [key, value] of Object.entries(req.query)) {

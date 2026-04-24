@@ -3,6 +3,7 @@ import { Location, locationModel } from '../models/location.model.js';
 import { NotFoundError } from '../utils/errors/client.errors.js';
 import type { LocationQuery } from '../validators/location.validator.js';
 import { escapeRegex } from '../utils/regex.js';
+import { serializeLocation } from '../utils/response.serializer.js';
 
 export async function findAllLocations(query: LocationQuery) {
   const { page, limit, ..._filters } = query;
@@ -23,7 +24,7 @@ export async function findAllLocations(query: LocationQuery) {
     locationModel.countDocuments(filter),
   ]);
 
-  return { results, count };
+  return { results: results.map(serializeLocation), count };
 }
 
 export async function findLocationById(id: number) {

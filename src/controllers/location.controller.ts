@@ -4,7 +4,7 @@ import { LocationParams, LocationQuery } from '../validators/location.validator.
 import { NotFoundError } from '../utils/errors/client.errors.js';
 import { buildPageUrl } from '../utils/pagination.js';
 import { PaginatedResponse } from '../types/pagination.interface.js';
-import { Location } from '../models/location.model.js';
+import { SerializedLocation } from '../utils/response.serializer.js';
 
 export async function getAllLocations(req: Request, res: Response) {
   const query = req.validated.query as LocationQuery;
@@ -15,7 +15,7 @@ export async function getAllLocations(req: Request, res: Response) {
   if (query.page > pages)
     throw new NotFoundError(`Page ${query.page} not found (last page is ${pages})`);
 
-  const response: PaginatedResponse<Location> = {
+  const response: PaginatedResponse<SerializedLocation> = {
     info: {
       count,
       pages,
