@@ -3,7 +3,7 @@ import { Location, locationModel } from '../models/location.model.js';
 import { NotFoundError } from '../utils/errors/client.errors.js';
 import type { LocationQuery } from '../validators/location.validator.js';
 import { escapeRegex } from '../utils/regex.js';
-import { serializeLocation } from '../utils/response.serializer.js';
+import { PopulatedLocation, serializeLocation } from '../utils/response.serializer.js';
 
 export async function findAllLocations(query: LocationQuery) {
   const { page, limit, ..._filters } = query;
@@ -18,9 +18,10 @@ export async function findAllLocations(query: LocationQuery) {
       .find(filter)
       .sort({ id: 1 })
       .select('-_id -updatedAt')
+      .populate('inhabitants', 'name status id -_id')
       .skip((page - 1) * limit)
       .limit(limit)
-      .lean(),
+      .lean<PopulatedLocation[]>(),
     locationModel.countDocuments(filter),
   ]);
 
@@ -28,9 +29,13 @@ export async function findAllLocations(query: LocationQuery) {
 }
 
 export async function findLocationById(id: number) {
-  const location = await locationModel.findOne({ id }).select('-_id -updatedAt').lean();
+  const result = await locationModel
+    .findOne({ id })
+    .select('-_id -updatedAt')
+    .populate('inhabitants', 'name status id -_id')
+    .lean<PopulatedLocation>();
 
-  if (!location) throw new NotFoundError(`Location ${id} not found`);
+  if (!result) throw new NotFoundError(`Location ${id} not found`);
 
-  return location;
+  return serializeLocation(result);
 }

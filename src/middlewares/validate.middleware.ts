@@ -8,8 +8,6 @@ type Schemas = {
   body?: ZodType;
 };
 
-// type Validated = Partial<Record<'params' | 'query' | 'body', unknown>>;
-
 export function validate(schemas: Schemas) {
   return (req: Request, _res: Response, next: NextFunction) => {
     req.validated = {};
