@@ -11,3 +11,7 @@ export function getResourceUrl(resource: resourceName, id: number): string {
 export function getResourceUrls(resource: resourceName, ids: number[]): string[] {
   return ids.map((id) => getResourceUrl(resource, id));
 }
+
+export function getCollectionsUrl(resource: resourceName) {
+  return `${env.BASE_URL}${API_PREFIX}/${resource}`;
+}

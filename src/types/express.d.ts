@@ -1,5 +1,3 @@
-import type { ZodType } from 'zod';
-
 declare global {
   namespace Express {
     interface Request {
