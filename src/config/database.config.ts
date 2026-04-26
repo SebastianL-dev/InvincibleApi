@@ -10,7 +10,7 @@ export default async function connect() {
       await mongoose.connect(env.MONGODB_URI);
       logger.success('Successfully connected to database!');
       return;
-    } catch (error) {
+    } catch (_error) {
       if (attempt === 0) logger.error("Can't connect to database.");
       else logger.error(`Attempt ${attempt}/${MAX_ATTEMPTS} failed`, false);
 

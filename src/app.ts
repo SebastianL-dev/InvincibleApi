@@ -5,7 +5,7 @@ import helmet from 'helmet';
 import compression from 'compression';
 import { errorMiddleware } from './middlewares/error.middleware.js';
 import { notFoundMiddleware } from './middlewares/notFound.middleware.js';
-import HomeRouter from './routes/home.route.js';
+import HomeRouter from './routes/home.routes.js';
 import LocationRouter from './routes/location.routes.js';
 import SpeciesRouter from './routes/species.route.js';
 

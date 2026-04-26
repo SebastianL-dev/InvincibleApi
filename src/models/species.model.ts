@@ -1,7 +1,7 @@
 import mongoose, { InferSchemaType } from 'mongoose';
 import { imagesSchema } from './shared/images.model.js';
 
-export const SPECIES_STATUSES = ['Active', 'Endangered', 'Extinct', 'Unknown'];
+export const SPECIES_STATUSES = ['Active', 'Endangered', 'Extinct', 'Unknown'] as const;
 
 const SpeciesSchema = new mongoose.Schema(
   {
@@ -13,7 +13,7 @@ const SpeciesSchema = new mongoose.Schema(
       default: 'Active',
       required: true,
     },
-    description: [{ type: String }],
+    description: { type: [String] },
     home: { type: mongoose.Types.ObjectId, ref: 'Location', required: true },
     images: { type: [imagesSchema], default: [] },
   },

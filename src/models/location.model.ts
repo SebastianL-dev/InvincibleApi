@@ -1,8 +1,8 @@
 import mongoose, { InferSchemaType } from 'mongoose';
 import { imagesSchema } from './shared/images.model.js';
 
-export const LOCATION_TYPES = ['Planet', 'City', 'Dimension', 'Building'];
-export const LOCATION_STATUSES = ['Active', 'Destroyed', 'Unknown'];
+export const LOCATION_TYPES = ['Planet', 'City', 'Dimension', 'Building'] as const;
+export const LOCATION_STATUSES = ['Active', 'Destroyed', 'Unknown'] as const;
 
 const locationSchema = new mongoose.Schema(
   {
@@ -19,9 +19,8 @@ const locationSchema = new mongoose.Schema(
       default: 'Active',
       required: true,
     },
-    description: [{ type: String }],
-    inhabitants: [{ type: mongoose.Types.ObjectId, ref: 'Species' }],
-    points_of_interest: [{ type: mongoose.Types.ObjectId, ref: 'Location' }],
+    description: { type: [String] },
+    inhabitants: { type: [mongoose.Types.ObjectId], ref: 'Species' },
     images: { type: [imagesSchema], default: [] },
   },
   { timestamps: true, versionKey: false },
