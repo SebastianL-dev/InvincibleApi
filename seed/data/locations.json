@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "69f573af5dafdfae094f12fc",
+    "id": 1,
+    "name": "Viltrum",
+    "type": "Planet",
+    "status": "Destroyed",
+    "description": [
+      "Viltrum was the home planet of Nolan Grayson/Omni-Man and his people, the Viltrumites, and was the capital of the Viltrum Empire.",
+      "It was destroyed by the combined efforts of the Coalition of Planets at the peak of the Viltrumite War, rendering the remaining native Viltrumites homeless and the Empire without a capital."
+    ],
+    "inhabitants": "69ee78741ad36213071ddca7",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T03:46:55.047+00:00"
+  },
+  {
+    "_id": "69ee8651536f4b980ff01989",
+    "id": 2,
+    "name": "Earth",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Earth is a rocky, terrestrial planet with a diverse and dynamic surface. Its landscape features mountains, valleys, canyons, plains, and a wide variety of other geological formations.",
+      "Known as an ocean planet, roughly 70% of Earth's surface is covered by vast bodies of water, shaping both its climate and the billions of life it supports."
+    ],
+    "inhabitants": "69ee8401994d2c0c7cd770f8",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T03:46:55.047+00:00"
+  },
+  {
+    "_id": "69f573af5dafdfae094f12fe",
+    "id": 3,
+    "name": "Thraxa",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Thraxa is alien planet and the home world of the Thraxan race. Very little is known about Thraxa except the inhabitants have significantly shorter lifespans than most other species and there are a total of 42 billion inhabitants that live there."
+    ],
+    "inhabitants": "69ee8401994d2c0c7cd770f8",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T03:46:55.047+00:00"
+  }
+]

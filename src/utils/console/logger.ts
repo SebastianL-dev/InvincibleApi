@@ -15,6 +15,9 @@ const logger = {
 
   success: (message: string, newLine: boolean = true, ...args: unknown[]) =>
     console.log(chalk.green(`${newLine ? '\n' : ''}✓`, message), ...args),
+
+  done: (message: string, newLine: boolean = true, ...args: unknown[]) =>
+    console.log(chalk.green(`${newLine ? '\n' : ''}✓`), message, ...args),
 };
 
 export default logger;

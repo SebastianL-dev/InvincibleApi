@@ -21,7 +21,7 @@ const locationSchema = new mongoose.Schema(
     },
     description: { type: [String] },
     inhabitants: { type: [mongoose.Types.ObjectId], ref: 'Species' },
-    images: { type: [imagesSchema], default: [] },
+    images: { type: imagesSchema, default: [] },
   },
   { timestamps: true, versionKey: false },
 );

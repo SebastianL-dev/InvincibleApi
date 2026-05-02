@@ -15,7 +15,7 @@ const SpeciesSchema = new mongoose.Schema(
     },
     description: { type: [String] },
     home: { type: mongoose.Types.ObjectId, ref: 'Location', required: true },
-    images: { type: [imagesSchema], default: [] },
+    images: { type: imagesSchema, default: [] },
   },
   { timestamps: true, versionKey: false },
 );

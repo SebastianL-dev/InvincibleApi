@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "69ee78741ad36213071ddca7",
+    "id": 1,
+    "name": "Viltrumite",
+    "status": "Endangered",
+    "description": [
+      "Viltrumites are a highly advanced alien race of extremely powerful superhumanoids native to the planet Viltrum. They are feared across the galaxy as a disciplined but merciless militaristic society driven by ideological supremacy and the belief that strength determines legitimacy.",
+      "Under the first Emperor, Argall, Viltrumite ideology was formalized into a disciplined imperial doctrine emphasizing strategic thinking alongside martial supremacy. Argall's legacy officially established the principle that only the strong may shape the future of the Empire, a doctrine that would later be intensified under Grand Regent Thragg."
+    ],
+    "home": "69f573af5dafdfae094f12fc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-04-26T20:41:24.969+00:00"
+  },
+  {
+    "_id": "69ee8401994d2c0c7cd770f8",
+    "id": 2,
+    "name": "Human",
+    "status": "Active",
+    "description": [
+      "Humans are the dominant intelligent species native to Earth and serve as the planet's primary sentient life form, notable for their technological advancement and resilience in a universe filled with super-powered beings and alien civilizations."
+    ],
+    "home": "69ee8651536f4b980ff01989",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-04-26T21:30:41.086+00:00"
+  },
+  {
+    "_id": "69f573af5dafdfae094f12fb",
+    "id": 3,
+    "name": "Unopan",
+    "status": "Endangered",
+    "description": [
+      "The Unopans are a race of aliens that were native to the planet Unopa until its destruction by the Viltrum Empire."
+    ],
+    "home": "69ee8651536f4b980ff01989",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T03:46:55.047+00:00"
+  }
+]

@@ -1,6 +1,5 @@
 node_modules
 dist
-seed
 pnpm-lock.yaml
 .env
 .env.*
