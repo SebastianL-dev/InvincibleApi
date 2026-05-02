@@ -18,7 +18,7 @@ export async function findAllLocations(query: LocationQuery) {
       .find(filter)
       .sort({ id: 1 })
       .select('-_id -updatedAt')
-      .populate('inhabitants', 'name status id -_id')
+      .populate('inhabitants', 'name id -_id')
       .skip((page - 1) * limit)
       .limit(limit)
       .lean<PopulatedLocation[]>(),
@@ -32,7 +32,7 @@ export async function findLocationById(id: number) {
   const result = await locationModel
     .findOne({ id })
     .select('-_id -updatedAt')
-    .populate('inhabitants', 'name status id -_id')
+    .populate('inhabitants', 'name id -_id')
     .lean<PopulatedLocation>();
 
   if (!result) throw new NotFoundError(`Location ${id} not found`);

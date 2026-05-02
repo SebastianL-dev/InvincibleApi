@@ -17,7 +17,7 @@ export async function findAllSpecies(query: SpeciesQuery) {
       .find(filter)
       .sort({ id: 1 })
       .select('-_id -updatedAt')
-      .populate('home', 'name status id -_id')
+      .populate('home', 'name id -_id')
       .skip((page - 1) * limit)
       .limit(limit)
       .lean<PopulatedSpecies[]>(),
@@ -31,7 +31,7 @@ export async function findSpeciesById(id: number) {
   const result = await speciesModel
     .findOne({ id })
     .select('-_id -updatedAt')
-    .populate('home', 'name status id -_id')
+    .populate('home', 'name id -_id')
     .lean<PopulatedSpecies>();
 
   if (!result) throw new NotFoundError(`Species ${id} not found`);

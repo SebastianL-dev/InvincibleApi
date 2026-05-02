@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "69f638c72aeadac346979325",
+    "id": 1,
+    "name": "Markus Sebastian Grayson",
+    "alias": "Invincible",
+    "age": "19",
+    "gender": "Male",
+    "status": "Alive",
+    "powers": [
+      "Emotional Amplification",
+      "Decelerated Aging",
+      "Flight",
+      "Superhuman Strength",
+      "Nigh-Invulnerability",
+      "Superhuman Speed",
+      "Reactive Adaptation",
+      "Accelerated Development",
+      "Regenerative Healing Factor",
+      "Superhuman Lung Capacity",
+      "Self-Sustenance",
+      "Superhuman Stamina",
+      "Superhuman Senses"
+    ],
+    "abilities": [
+      "High-Level Intellect",
+      "Expert Combatant",
+      "Tactical Coordination",
+      "Leadership"
+    ],
+    "description": [
+      "Markus Sebastian \"Mark\" Grayson is the titular protagonist of the Invincible series. A Viltrumite-Human hybrid, he is the superhero known as Invincible, the son of Nolan Grayson/Omni-Man and Debbie Grayson, the paternal older half-brother of Oliver Grayson II/Young Omni-Man and the maternal grandson of Oliver. He is also the boyfriend of Eve Wilkins/Atom Eve and the father of her unborn child.",
+      "Mark gained his powers at the age of 17 and began his superhero journey under the mentorship of his father. After a brief stint with Teen Team, he allied with Atom Eve eventually confessing to his feeling to the latter beginning an ongoing bond of love. He also allied with the second incarnation of the Guardians of the Globe, and Cecil Stedman of the Global Defense Agency to protect Earth from a wide range of threats. As his duties grew,"
+    ],
+    "quotes": [
+      "I don't care how strong you are, I don't care how fast you are, I can see the future. You don't live to see tomorrow.",
+      "I don't give a shit about Viltrum. And I don't care if I live a- fuckin' million years. This is my home, and I won't let you destroy it!",
+      "I will not. Let. Anyone. Ever. EVER. HURT MY FAMILY!"
+    ],
+    "origin": "69ee8651536f4b980ff01989",
+    "species": ["69ee78741ad36213071ddca7", "69ee8401994d2c0c7cd770f8"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T17:47:51.751+00:00"
+  },
+  {
+    "_id": "69f638c72aeadac346979326",
+    "id": 2,
+    "name": "Nolan Grayson",
+    "alias": "Omni-Man",
+    "age": "2000+",
+    "gender": "Male",
+    "status": "Alive",
+    "powers": [
+      "Decelerated Aging",
+      "Flight",
+      "Superhuman Strength",
+      "Nigh-Invulnerability",
+      "Superhuman Speed",
+      "Regenerative Healing Factor",
+      "Superhuman Lung Capacity",
+      "Self-Sustenance",
+      "Superhuman Stamina",
+      "Superhuman Senses"
+    ],
+    "abilities": ["Master Combatant", "Master Manipulator", "Leadership"],
+    "description": [
+      "Nolan is the deuteragonist of Invincible, initially debuting as the main antagonist of Season 1, before beginning to redeem himself from Season 2 and onwards. Infamously known as the fallen \"superhero\" Omni-Man, who is also secretly known by his adopted Earth name Nolan Grayson. He is the husband of his first wife Debbie Grayson, then the widower to his late second wife Andressa, and the father of Mark and Oliver Grayson.",
+      "He was a revered, high-ranking Viltrumite warrior of the Viltrum Empire, dedicated to aiding the Viltrumite mission to make it the only empire in the universe, until his tenure on Earth changed him for the better. After abandoning his mission and a year of contemplation, Nolan joined the Coalition of the Planets in their struggle to finally end the tyranny of his own people, and to redeem himself in the eyes of his family. Following the Coalition's victory over the Empire, Nolan returned to Earth, where he took Debbie back to Talescria to be close to Oliver."
+    ],
+    "quotes": [
+      "Are you sure?",
+      "You don't seem to understand, Earth isn't yours to conquer.",
+      "I do love your mother, but, she's more like a... a pet to me.",
+      "You wanna die for this planet? Fine! What's 17 more years? I can always start again, make another kid.",
+      "Why did you make me do this? You're fighting so you can watch everyone around you die. Think, Mark! You'll outlast every fragile, insignificant being on this planet. You'll live to see this world crumble to dust and blow away! Everyone and everything you know will be gone! What will you have after five hundred years?",
+      "I think... I think I miss my wife."
+    ],
+    "origin": "69f573af5dafdfae094f12fc",
+    "species": ["69ee78741ad36213071ddca7"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T17:47:51.751+00:00"
+  },
+  {
+    "_id": "69f638c72aeadac346979327",
+    "id": 3,
+    "name": "Samantha Eve Wilkins",
+    "alias": "Atom Eve",
+    "age": "19",
+    "gender": "Female",
+    "status": "Alive",
+    "powers": [
+      "Molecular Transmutation Physiology",
+      "Flight",
+      "Energy Constructs",
+      "Energy Projection",
+      "Matter Manipulation",
+      "Transmutation",
+      "Density Manipulation",
+      "Resurrection",
+      "Superhuman Durability"
+    ],
+    "abilities": ["Hand To Hand Combat", "Genius Intelligence", "Armor Construction"],
+    "description": [
+      "Samantha Eve Wilkins, also known as the superhero Atom Eve, and even simply just Eve, is the tritagonist of Invincible and the main protagonist of her own prequel special. She is a genetically enhanced human, the biological daughter of the late Polly and an unnamed man, and the adoptive daughter of Adam and Betsy Wilkins. She is also the girlfriend of Mark Grayson and the mother of his unborn child.",
+      "Born as the U.S. government's ultimate weapon, she was rescued by her creator, Dr. Elias Brandyworth, at her dying mother's wish and entrusted to the Wilkins family to be raised as their adoptive daughter. In her pre-teen years, Eve emerged as a hero with the ability to manipulate matter at a subatomic level. She was a past member of the Teen Team before they disbanded for auditions for the new Guardians of the Globe. While she excelled in the trials, Eve decided to become an independent hero. After beginning a relationship with Invincible, they founded a superhero security firm called Invincible Inc. for financial support."
+    ],
+    "quotes": [],
+    "origin": "69ee8651536f4b980ff01989",
+    "species": ["69ee8401994d2c0c7cd770f8"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T17:47:51.751+00:00"
+  }
+]

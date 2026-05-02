@@ -8,6 +8,7 @@ import { notFoundMiddleware } from './middlewares/notFound.middleware.js';
 import HomeRouter from './routes/home.routes.js';
 import LocationRouter from './routes/location.routes.js';
 import SpeciesRouter from './routes/species.route.js';
+import CharacterRouter from './routes/character.routes.js';
 
 const app: Application = express();
 const prefix = '/api/v0';
@@ -17,6 +18,7 @@ app.use(cors({ origin: '*' }), express.json(), morgan('dev'), helmet(), compress
 app.use(prefix, HomeRouter);
 app.use(prefix, LocationRouter);
 app.use(prefix, SpeciesRouter);
+app.use(prefix, CharacterRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
