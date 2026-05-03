@@ -22,6 +22,8 @@ const characterSchema = new mongoose.Schema(
     quotes: { type: [String] },
     origin: { type: mongoose.Types.ObjectId, ref: 'Location', required: true },
     species: { type: [mongoose.Types.ObjectId], ref: 'Species' },
+    firstAppearance: { type: mongoose.Types.ObjectId, ref: 'Episode' },
+    affiliations: { type: [mongoose.Types.ObjectId], ref: 'Group', default: [] },
     images: { type: imagesSchema, default: [] },
   },
   { timestamps: true, versionKey: false },

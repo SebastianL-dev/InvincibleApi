@@ -1,5 +1,7 @@
 import { QueryFilter } from 'mongoose';
 import { Character, characterModel } from '../models/character.model.js';
+import { episodeModel } from '../models/episode.model.js';
+import { groupModel } from '../models/group.model.js';
 import { locationModel } from '../models/location.model.js';
 import { speciesModel } from '../models/species.model.js';
 import { NotFoundError } from '../utils/errors/client.errors.js';
@@ -29,6 +31,18 @@ export async function findAllCharacters(query: CharacterQuery) {
     filter.species = { $in: [species._id] };
   }
 
+  if (query.firstAppearance !== undefined) {
+    const episode = await episodeModel.findOne({ id: query.firstAppearance }).select('_id').lean();
+    if (!episode) return EMPTY_RESULT;
+    filter.firstAppearance = episode._id;
+  }
+
+  if (query.affiliation !== undefined) {
+    const group = await groupModel.findOne({ id: query.affiliation }).select('_id').lean();
+    if (!group) return EMPTY_RESULT;
+    filter.affiliations = { $in: [group._id] };
+  }
+
   const [results, count] = await Promise.all([
     characterModel
       .find(filter)
@@ -36,6 +50,8 @@ export async function findAllCharacters(query: CharacterQuery) {
       .select('-_id -updatedAt')
       .populate('origin', 'name id -_id')
       .populate('species', 'name id -_id')
+      .populate('firstAppearance', 'name id -_id')
+      .populate('affiliations', 'name id -_id')
       .skip((page - 1) * limit)
       .limit(limit)
       .lean<PopulatedCharacter[]>(),
@@ -51,6 +67,8 @@ export async function findCharacterById(id: number) {
     .select('-_id -updatedAt')
     .populate('origin', 'name id -_id')
     .populate('species', 'name id -_id')
+    .populate('firstAppearance', 'name id -_id')
+    .populate('affiliations', 'name id -_id')
     .lean<PopulatedCharacter>();
 
   if (!result) throw new NotFoundError(`Character ${id} not found`);

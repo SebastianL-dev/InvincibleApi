@@ -1,0 +1,128 @@
+[
+  {
+    "_id": "69f7ac06c1242facf9c7eb25",
+    "id": 1,
+    "name": "Guardians of the Globe",
+    "status": "Active",
+    "description": "The Guardians of the Globe are a superhero team of extraordinary individuals, considered to be the best of the best. Their purpose is to protect the Earth from both internal and extraterrestrial threats. Though primarily affiliated with the Global Defense Agency, they operate on a global scale rather than in a specific region.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb26",
+    "id": 2,
+    "name": "Team Evil Invincible",
+    "status": "Inactive",
+    "description": "Team Evil Invincible are a group of antagonists introduced in Season 3. They are a collection of ruthless Invincible variants from across the multiverse, assembled by Angstrom Levy from their respective universes as part of his plan for revenge against the mainstream Invincible.",
+    "location": "69f6511b1c51da336df75c63",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb27",
+    "id": 3,
+    "name": "Lizard League",
+    "status": "Inactive",
+    "description": "The Lizard League are a lizard-themed supervillain terrorist group. They are adversaries of several superhero teams, including the Fight Force and the Guardians of the Globe.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb28",
+    "id": 4,
+    "name": "Teen Team",
+    "status": "Disbanded",
+    "description": "The team disbanded for a time to join the new Guardians of the Globe. After a fallout with Cecil Stedman and the Global Defense Agency, the team was restored with both old and new members joining the cause.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb29",
+    "id": 5,
+    "name": "Invincible Inc.",
+    "status": "Active",
+    "description": "Designed to respond to superhuman threats and crises around the globe, the organization provides professional protection services, often filling the gap where larger institutions fall short. With Invincible as its primary field agent, Invincible Inc. quickly gained recognition for its effectiveness in neutralizing high-level threats and restoring stability in chaotic situations.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb2a",
+    "id": 6,
+    "name": "Machine Head's Crew",
+    "status": "Active",
+    "description": "Machine Head's Crew was a group of semi powerful supervillains under the helm of Machine Head.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb2b",
+    "id": 7,
+    "name": "Coalition of Planets",
+    "status": "Active",
+    "description": "The Coalition of Planets (C.O.P.) is an intergalactic peacekeeping organization dedicated to stopping the Viltrum Empire from taking over the universe. Led since its foundation by its founder, Great Thaedus. Upon his death, Thaedus' most trusted subordinate Allen of Unopa was made his successor of the Coalition, as per his wishes.",
+    "location": "69f6511b1c51da336df75c60",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7ac06c1242facf9c7eb2c",
+    "id": 8,
+    "name": "Viltrum Empire",
+    "status": "Active",
+    "description": "Founded and led by the first Emperor, Argall, the Empire is comprised of Viltrumite warriors dedicated to expand its dominion across the galaxy and ultimately the entire universe.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  },
+  {
+    "_id": "69f7c08c7985491881f41d76",
+    "id": 9,
+    "name": "Global Defense Agency",
+    "status": "Active",
+    "description": "The Global Defense Agency (G.D.A.) is a covert paramilitary law-enforcement intelligence-agency tasked with monitoring and handling global superhuman threats. Operating from a hidden base beneath the Pentagon in Arlington, Virginia, the G.D.A. is presumably affiliated or associated with the United States federal government, though its operations extend far beyond domestic borders.",
+    "location": "69ee8651536f4b980ff01989",
+    "members": ["69f638c72aeadac346979325"],
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-03T20:11:50.065+00:00"
+  }
+]

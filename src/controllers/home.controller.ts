@@ -6,6 +6,8 @@ export async function getHomeInformation(req: Request, res: Response) {
     characters: getCollectionsUrl('characters'),
     species: getCollectionsUrl('species'),
     locations: getCollectionsUrl('locations'),
+    groups: getCollectionsUrl('groups'),
+    episodes: getCollectionsUrl('episodes'),
   };
 
   res.status(200).json(response);

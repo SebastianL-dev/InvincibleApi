@@ -39,6 +39,7 @@
     ],
     "origin": "69ee8651536f4b980ff01989",
     "species": ["69ee78741ad36213071ddca7", "69ee8401994d2c0c7cd770f8"],
+    "firstAppearance": "69f792be9bb99a7b57095277",
     "images": {
       "portrait": "https://",
       "gallery": [{ "url": "https://", "caption": "" }]
@@ -80,6 +81,7 @@
     ],
     "origin": "69f573af5dafdfae094f12fc",
     "species": ["69ee78741ad36213071ddca7"],
+    "firstAppearance": "69f792be9bb99a7b57095277",
     "images": {
       "portrait": "https://",
       "gallery": [{ "url": "https://", "caption": "" }]
@@ -113,6 +115,7 @@
     "quotes": [],
     "origin": "69ee8651536f4b980ff01989",
     "species": ["69ee8401994d2c0c7cd770f8"],
+    "firstAppearance": "69f792be9bb99a7b57095278",
     "images": {
       "portrait": "https://",
       "gallery": [{ "url": "https://", "caption": "" }]

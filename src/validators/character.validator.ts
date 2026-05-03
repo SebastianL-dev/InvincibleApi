@@ -7,6 +7,8 @@ export const characterQuerySchema = z.object({
   gender: z.string().trim().min(1).max(50).optional(),
   species: z.coerce.number().int().positive().optional(),
   origin: z.coerce.number().int().positive().optional(),
+  firstAppearance: z.coerce.number().int().positive().optional(),
+  affiliation: z.coerce.number().int().positive().optional(),
   page: z.coerce.number().int().positive().default(1),
   limit: z.coerce.number().int().positive().max(100).default(20),
 });

@@ -18,7 +18,7 @@ async function server() {
 
     for (const signal of ['SIGINT', 'SIGTERM'] as const) {
       process.on(signal, async () => {
-        logger.info(`Received ${signal}, shutting down...`);
+        logger.info(`Shutting down server...`);
         server.close();
         await mongoose.disconnect();
         process.exit(0);

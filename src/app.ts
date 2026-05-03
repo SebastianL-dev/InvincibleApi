@@ -9,6 +9,8 @@ import HomeRouter from './routes/home.routes.js';
 import LocationRouter from './routes/location.routes.js';
 import SpeciesRouter from './routes/species.route.js';
 import CharacterRouter from './routes/character.routes.js';
+import GroupRouter from './routes/group.routes.js';
+import EpisodeRouter from './routes/episode.routes.js';
 
 const app: Application = express();
 const prefix = '/api/v0';
@@ -19,6 +21,8 @@ app.use(prefix, HomeRouter);
 app.use(prefix, LocationRouter);
 app.use(prefix, SpeciesRouter);
 app.use(prefix, CharacterRouter);
+app.use(prefix, GroupRouter);
+app.use(prefix, EpisodeRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
