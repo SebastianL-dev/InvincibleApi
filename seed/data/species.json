@@ -38,11 +38,201 @@
     "description": [
       "The Unopans are a race of aliens that were native to the planet Unopa until its destruction by the Viltrum Empire."
     ],
-    "home": "69ee8651536f4b980ff01989",
+    "home": "69f6511b1c51da336df75c61",
     "images": {
       "portrait": "https://",
       "gallery": [{ "url": "https://", "caption": "" }]
     },
     "createdAt": "2026-05-02T03:46:55.047+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c4a",
+    "id": 4,
+    "name": "Rognarr",
+    "status": "Active",
+    "description": [
+      "The Rognarrs are a savage, non-sapient alien species recognized as one of the most physically powerful species in the universe.",
+      "They are among the few beings that capable of posing a genuine threat to the Viltrum Empire, having been confronted by both Nolan and Conquest during their mission."
+    ],
+    "home": "69f6511b1c51da336df75c5f",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c4b",
+    "id": 5,
+    "name": "Thraxans",
+    "status": "Active",
+    "description": [
+      "The Thraxans are a peaceful alien species native to the planet Thraxa, known for their striking resemblance to praying mantises."
+    ],
+    "home": "69f573af5dafdfae094f12fe",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c4c",
+    "id": 6,
+    "name": "Flaxans",
+    "status": "Endangered",
+    "description": [
+      "The Flaxans are a race of inter-dimensional beings that were set on conquering planet Earth and killing its humans. They made several attempts to invade Earth and each time they arrived, the Flaxans were defeated by various superheroes."
+    ],
+    "home": "69f6511b1c51da336df75c5a",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c4d",
+    "id": 7,
+    "name": "Gelderians",
+    "status": "Active",
+    "description": [
+      "The Gelderians are a highly intelligent humanoid species known for their scientific and technological expertise, most notably for creating the advanced armoured suit worn by Tech Jacket."
+    ],
+    "home": "69f6511b1c51da336df75c5b",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c4e",
+    "id": 8,
+    "name": "Dornians",
+    "status": "Active",
+    "description": ["The Dornians are a warlike, lion-like alien species."],
+    "home": "69f6511b1c51da336df75c59",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c4f",
+    "id": 9,
+    "name": "Sequids",
+    "status": "Extinct",
+    "description": [
+      "They are a parasitic alien species known for their destructive nature and their iconic ability to control the minds of others, having left a trail of devastation across the universe before ultimately crash-landing on Mars. During their time on Mars, the Sequids were enslaved by the Martians since they required living and controllable hosts in order to become a true threat."
+    ],
+    "home": "69f6511b1c51da336df75c5d",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c50",
+    "id": 10,
+    "name": "Atlanteans",
+    "status": "Active",
+    "description": [
+      "The Atlanteans are a race of aquatic beings native to Earth who live in the underwater city of Atlantis."
+    ],
+    "home": "69ee8651536f4b980ff01989",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c51",
+    "id": 11,
+    "name": "Demons",
+    "status": "Active",
+    "description": ["Demons are the dominant intelligent species native to Hell."],
+    "home": "69ee8651536f4b980ff01989",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c52",
+    "id": 12,
+    "name": "Magmanites",
+    "status": "Active",
+    "description": [
+      "Magmanites are subterranean, lava creatures that appear in Invincible. They are servants to Volcanikka and Doc Seismic."
+    ],
+    "home": "69ee8651536f4b980ff01989",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c53",
+    "id": 13,
+    "name": "Martians",
+    "status": "Active",
+    "description": [
+      "The Martians are an alien race that live on the planet Mars, a neighbor to the planet Earth. All of them are able to use shape-changing abilities to become anything they desire. The ruler of this alien race is The Emperor of Mars."
+    ],
+    "home": "69f6511b1c51da336df75c5d",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c54",
+    "id": 14,
+    "name": "Relonian",
+    "status": "Unknown",
+    "description": [
+      "The Relonians are one of the alien species to be conquered by the Viltrum Empire, they were one of the species to resist the Empire."
+    ],
+    "home": "69f654bc55562f061ae1467f",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c55",
+    "id": 15,
+    "name": "Squidmen",
+    "status": "Active",
+    "description": [
+      "Squidmen is a criminal group in Invincible that serves as a minor antagonist in Season 2."
+    ],
+    "home": "69ee8651536f4b980ff01989",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f653cdf75e5822b19ec3bc",
+    "id": 16,
+    "name": "Unknown",
+    "status": "Unknown",
+    "description": ["Unknown"],
+    "home": "69f654bc55562f061ae1467f",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
   }
 ]

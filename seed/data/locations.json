@@ -42,11 +42,195 @@
     "description": [
       "Thraxa is alien planet and the home world of the Thraxan race. Very little is known about Thraxa except the inhabitants have significantly shorter lifespans than most other species and there are a total of 42 billion inhabitants that live there."
     ],
-    "inhabitants": "69ee8401994d2c0c7cd770f8",
+    "inhabitants": "69f6511b1c51da336df75c4b",
     "images": {
       "portrait": "https://",
       "gallery": [{ "url": "https://", "caption": "" }]
     },
     "createdAt": "2026-05-02T03:46:55.047+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c59",
+    "id": 4,
+    "name": "Dornin",
+    "type": "Planet",
+    "status": "Active",
+    "description": ["Dornin is the home planet of Battle Beast and his people, the Dornians."],
+    "inhabitants": "69f6511b1c51da336df75c4e",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c5a",
+    "id": 5,
+    "name": "Flaxan Dimension",
+    "type": "Planet",
+    "status": "Active",
+    "description": ["The Flaxan Dimension is the home Planet of the Flaxan race."],
+    "inhabitants": "69f6511b1c51da336df75c4c",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c5b",
+    "id": 6,
+    "name": "Gelderia",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Gelderia is the homeworld of the Gelderians that were under attack by the Viltrum Empire."
+    ],
+    "inhabitants": "69f6511b1c51da336df75c4d",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c5c",
+    "id": 7,
+    "name": "Glacia Prime",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Glacia Prime is a planet that was formerly conquered by the Viltrum Empire, but was later liberated by the Coalition of Planets."
+    ],
+    "inhabitants": "69f653cdf75e5822b19ec3bc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c5d",
+    "id": 8,
+    "name": "Mars",
+    "type": "Planet",
+    "status": "Active",
+    "description": ["Mars is the home planet of the Martian race."],
+    "inhabitants": "69f6511b1c51da336df75c53",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c5e",
+    "id": 9,
+    "name": "Quintessa",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Quintessa is a planet that was formerly conquered by the Viltrum Empire, but was later liberated by the Coalition of Planets."
+    ],
+    "inhabitants": "69f653cdf75e5822b19ec3bc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c5f",
+    "id": 10,
+    "name": "Savage Planet",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Savage Planet is the home planet of the incredibly dangerous savage extraterrestrial non-sapient creatures, the Rognarrs."
+    ],
+    "inhabitants": "69f6511b1c51da336df75c4a",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c60",
+    "id": 11,
+    "name": "Talescria",
+    "type": "Planet",
+    "status": "Active",
+    "description": [
+      "Talescria is a planet that serves as the headquarters of the Coalition of Planets."
+    ],
+    "inhabitants": "69f653cdf75e5822b19ec3bc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c61",
+    "id": 12,
+    "name": "Unopa",
+    "type": "Planet",
+    "status": "Destroyed",
+    "description": [
+      "Unopa was the home planet of Allen the Alien and his people - the Unopans, before it was destroyed by the Viltrum Empire."
+    ],
+    "inhabitants": "69f573af5dafdfae094f12fb",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c62",
+    "id": 13,
+    "name": "Urath",
+    "type": "Planet",
+    "status": "Unknown",
+    "description": [
+      "Urath is a planet, that Allen was supposed to check on. it is known among the fandom as \"space Australia\""
+    ],
+    "inhabitants": "69f653cdf75e5822b19ec3bc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f6511b1c51da336df75c63",
+    "id": 14,
+    "name": "Wasteland Universe",
+    "type": "Dimension",
+    "status": "Active",
+    "description": [
+      "The Wasteland Universe is a desolate and barren reality in the Multiverse. It was reduced to its current state from unknown causes."
+    ],
+    "inhabitants": "69f653cdf75e5822b19ec3bc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
+  },
+  {
+    "_id": "69f654bc55562f061ae1467f",
+    "id": 15,
+    "name": "Unknown",
+    "type": "Planet",
+    "status": "Unknown",
+    "description": ["Unknown"],
+    "inhabitants": "69f653cdf75e5822b19ec3bc",
+    "images": {
+      "portrait": "https://",
+      "gallery": [{ "url": "https://", "caption": "" }]
+    },
+    "createdAt": "2026-05-02T19:31:39.361+00:00"
   }
 ]
